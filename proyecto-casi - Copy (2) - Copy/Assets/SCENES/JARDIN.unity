@@ -400,7 +400,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b33020557ef12c14192a60ac34734b34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pecados: {fileID: 0}
 --- !u!65 &260539461
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -735,7 +734,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18f1ff003e8fbdb44aba8266f6e1d168, type: 3}
   - {fileID: 8300000, guid: 6cda98d8a5ac5db48837383e15c43292, type: 3}
   - {fileID: 8300000, guid: 8390a552ae939074d99fd6fe96ed61ba, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 7300d6f3caf9f0f4d814167095957528, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

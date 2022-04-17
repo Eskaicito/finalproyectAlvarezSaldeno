@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class enemigosPadre : MonoBehaviour
 {
+     private AudioManager audioManager;
     [SerializeField] enemyData enemyData;
     void Start()
     {
@@ -13,6 +14,9 @@ public class enemigosPadre : MonoBehaviour
         enemyData.distanciaPlayer = 0;
         enemyData.playerDetectado = false;
         enemyData.player = GameObject.FindWithTag("Player");
+    }
+    private void Awake() {
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     // Update is called once per frame

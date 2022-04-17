@@ -9,11 +9,11 @@ public class gladiator : enemigosPadre
     public override void animacionAtacar(){
         enemyAnimator.SetBool("IsAttack", true);
         enemyAnimator.SetBool("IsWalk", false);
+
     }
     public override void animacionCaminar(){
         enemyAnimator.SetBool("IsWalk", true);
         enemyAnimator.SetBool("IsAttack", false);
-        
     }
     
 }
