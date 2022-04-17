@@ -5,8 +5,7 @@ using UnityEngine;
 public class playerCharacter : MonoBehaviour
 {
     [SerializeField] float speed = 8f;
-    private float cameraAxisX;
-    private float cameraAxisY;
+    
     private Vector3 velocidad;
     [SerializeField] float gravedad = -9.81f;
     [SerializeField] float alturaSalto = 10f;
@@ -27,11 +26,12 @@ public class playerCharacter : MonoBehaviour
     }
     void Start()
     {
+        //fuego.startColor = Color.black;
         ccPlayer = GetComponent<CharacterController>();
         jardin = GameObject.Find("JARDIN");
         alcantarillas = GameObject.Find("ALCANTARILLAS");
         laberinto = GameObject.Find("LABERINTO");
-        fuego = GetComponent<ParticleSystem>();
+        fuego = transform.Find("Camera").transform.Find("lanzallamasVFX").gameObject.GetComponent<ParticleSystem>();
 
     }
 
@@ -47,7 +47,6 @@ public class playerCharacter : MonoBehaviour
             speed = 4.5f;
         }
         running();
-        rotatePlayerX();
         playerMoving();
 
         //Gravedad
@@ -142,12 +141,7 @@ public class playerCharacter : MonoBehaviour
         }
     }
 
-    private void rotatePlayerX()
-    {
-        cameraAxisX += Input.GetAxis("Mouse X");
-        Quaternion angulo = Quaternion.Euler(0f, cameraAxisX, 0f);
-        transform.localRotation = angulo;
-    }
+    
 
     private void muerto()
     {

@@ -100620,6 +100620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ---JUGADOR---
       objectReference: {fileID: 0}
+    - target: {fileID: 1669507536516026039, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7585864607338895658, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
     - {fileID: 1669507536516026034, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}

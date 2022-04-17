@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class firstTower : Interactable
 {
+    [SerializeField] public int vidaCubito = 500;
+    [SerializeField] public int dañofuegito = 1;
     public override void interact()
     {
-        PecadosSingleton.instance.pecadoGula = true;
-        Destroy(gameObject);
+        transform.position = new Vector3(2,2,2);
+    }
+    
+    private void OnParticleCollision(GameObject other) {
+        if (other.gameObject.CompareTag("fuego")){
+            vidaCubito -= dañofuegito;
+        }
     }
 }

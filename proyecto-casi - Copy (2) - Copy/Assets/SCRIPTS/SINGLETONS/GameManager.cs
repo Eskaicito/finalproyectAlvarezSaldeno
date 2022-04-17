@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int playerCoins;
-    public float playerLife, maxPlayerLife;
+    public float playerLife, maxPlayerLife, flamethrowerDamage;
     public bool itsClose;
     public TextMeshProUGUI textGameOver;
     public TextMeshProUGUI dracmas;
@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
             playerLife = 100;
             maxPlayerLife = 100;
             playerCoins = 0;
+            flamethrowerDamage = 5f;
             itsClose = false;
         }
         else

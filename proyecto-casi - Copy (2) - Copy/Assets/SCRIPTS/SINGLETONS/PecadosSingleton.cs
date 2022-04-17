@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PecadosSingleton : MonoBehaviour
 {
-    public static PecadosSingleton instance;
     public bool pecadoSoberbia = false;
     public bool pecadoAvaricia = false;
     public bool pecadoLujuria = false;
@@ -37,9 +36,13 @@ public class PecadosSingleton : MonoBehaviour
             GameManager.instance.playerLife = GameManager.instance.maxPlayerLife;
             //activar barra de vida doble
         }
+        if (pecadoIra == true){
+            //cambiar color de lanzallamas
+            GameManager.instance.flamethrowerDamage = 300;
+        }
 
 
-        if (pecadoSoberbia && pecadoGula && pecadoAvaricia && pecadoLujuria && pecadoIra && pecadoPereza && pecadoEnvidia){
+        if (pecadoGula && pecadoAvaricia && pecadoLujuria && pecadoIra && pecadoPereza && pecadoEnvidia){
             playerPecador = true;
         }
     }
