@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6585415676654927688}
   - component: {fileID: 408409334567375458}
   - component: {fileID: 4280833480176952331}
+  - component: {fileID: 4522274283398435530}
   m_Layer: 0
   m_Name: Coins
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4522274283398435530
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857641481163224799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8400976432805623956, guid: e476823e3b3d9624a92c33db9aaa7407, type: 3}
 --- !u!1 &4595744976030158652
 GameObject:
   m_ObjectHideFlags: 0
