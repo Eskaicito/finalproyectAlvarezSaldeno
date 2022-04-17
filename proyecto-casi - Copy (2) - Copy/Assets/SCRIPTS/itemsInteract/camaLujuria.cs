@@ -2,17 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class camaLujuria : MonoBehaviour
+public class camaLujuria : Interactable
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void interact()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        PecadosSingleton.instance.pecadoGula = true;
+        Destroy(gameObject);
     }
 }
