@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PecadosSingleton : MonoBehaviour
 {
+    public static PecadosSingleton instance;
     public bool pecadoSoberbia = false;
     public bool pecadoAvaricia = false;
     public bool pecadoLujuria = false;

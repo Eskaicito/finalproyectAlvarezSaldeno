@@ -4169,7 +4169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6775372989918627229, guid: b1c2b2b21637dc14dbfaa3c4f3844c54, type: 3}
       propertyPath: m_TagString
-      value: GULA
+      value: item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1c2b2b21637dc14dbfaa3c4f3844c54, type: 3}
@@ -4195,7 +4195,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b33020557ef12c14192a60ac34734b34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pecados: {fileID: 0}
 --- !u!1001 &2668117427232619532
 PrefabInstance:
   m_ObjectHideFlags: 0

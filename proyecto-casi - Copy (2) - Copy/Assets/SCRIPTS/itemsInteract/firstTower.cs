@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class firstTower : Interactable
 {
-    public PecadosSingleton pecados;
     public override void interact()
     {
-        if(gameObject.name== "PECADOGULA"){
-            Destroy(gameObject);
-            pecados.pecadoGula = true;
-        }
+        PecadosSingleton.instance.pecadoGula = true;
+        Destroy(gameObject);
     }
 }

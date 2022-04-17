@@ -6350,6 +6350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ---JUGADOR---
       objectReference: {fileID: 0}
+    - target: {fileID: 4536370370447649813, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5888730011211049185, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
