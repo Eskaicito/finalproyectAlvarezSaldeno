@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - item
+  - JARDINPORTAL
+  - playerAttack
+  - GladiatorSword
+  - spiders
+  - checkPoint
+  - PORTAL2
+  - enemyAttack
+  - Interact
+  - GULA
   layers:
   - Default
   - TransparentFX

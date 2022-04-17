@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class firstTower : Interactable
 {
+    public PecadosSingleton pecados;
     public override void interact()
     {
-        transform.position = new Vector3(2,2,2);
+        if(gameObject.name== "PECADOGULA"){
+            Destroy(gameObject);
+            pecados.pecadoGula = true;
+        }
     }
 }
