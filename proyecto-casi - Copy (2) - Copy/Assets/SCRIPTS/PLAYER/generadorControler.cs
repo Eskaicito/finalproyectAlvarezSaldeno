@@ -12,7 +12,7 @@ public class generadorControler : MonoBehaviour
     [SerializeField] GameObject player;
     
      private void Awake() {
-        FindObjectOfType<GameManager>().OnDeath+= muerto;
+      //  FindObjectOfType<GameManager>().OnDeath+= muerto;
     }
     void Update()
     {
@@ -31,7 +31,7 @@ public class generadorControler : MonoBehaviour
          if (Input.GetKeyDown(KeyCode.E) && temporizador2 >= 4)
         {
             playerAnimator.SetBool("IsAttacking", true);
-            especialAttack();
+            //especialAttack();
             temporizador2 = 0;   
         }
     }
@@ -40,7 +40,7 @@ public class generadorControler : MonoBehaviour
     {
         Instantiate(bulletPrefab, transform.position, transform.rotation);
     }
-    private void especialAttack(){
+    /*private void especialAttack(){
         Invoke("spawnbullet", 0f);
         Invoke("spawnbullet", 0.1f);
         Invoke("spawnbullet", 0.2f);
@@ -51,4 +51,5 @@ public class generadorControler : MonoBehaviour
    private void muerto(){
         Destroy(this);
     }
+    */
 }

@@ -102,7 +102,7 @@ public class enemigosPadre : MonoBehaviour
         Debug.Log("caminando");
     }
     private void OnParticleCollision(GameObject other) {
-        if (other.transform.CompareTag("fuego")){
+        if (other.transform.CompareTag("playerAttack")){
             enemyData.enemyLife -= GameManager.instance.flamethrowerDamage;
         }
     }

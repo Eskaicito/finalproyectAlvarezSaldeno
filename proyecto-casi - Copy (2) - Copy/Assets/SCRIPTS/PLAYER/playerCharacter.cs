@@ -18,6 +18,7 @@ public class playerCharacter : MonoBehaviour
     public GameObject alcantarillas;
     public GameObject laberinto;
     public GameObject arena; 
+    private bool dobleJump;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -40,6 +41,7 @@ public class playerCharacter : MonoBehaviour
     {
         if (ccPlayer.isGrounded)
         {
+            dobleJump = false;
             speed = 8f;
         }
         else
@@ -56,10 +58,25 @@ public class playerCharacter : MonoBehaviour
     }
     private void jumpPlayer()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && ccPlayer.isGrounded)
-        {
-            velocidad.y = Mathf.Sqrt(-alturaSalto * gravedad);
-            playerAnimator.SetBool("IsJumping", true);
+        if (PecadosSingleton.instance.pecadoPereza == true){
+            if (Input.GetKeyDown(KeyCode.Space) && ccPlayer.isGrounded)
+            {
+                velocidad.y = Mathf.Sqrt(-alturaSalto * gravedad);
+                playerAnimator.SetBool("IsJumping", true);
+            }
+            if (Input.GetKeyDown(KeyCode.Space) && (dobleJump ==false && PecadosSingleton.instance.pecadoPereza == true))
+            {
+                velocidad.y = Mathf.Sqrt(-alturaSalto * gravedad);
+                playerAnimator.SetBool("IsJumping", true);
+                dobleJump = true;
+            }
+        }
+        else{
+            if (Input.GetKeyDown(KeyCode.Space) && (dobleJump == false && ccPlayer.isGrounded))
+            {
+                velocidad.y = Mathf.Sqrt(-alturaSalto * gravedad);
+                playerAnimator.SetBool("IsJumping", true);
+            }
         }
     }
     private void PlayerMovement(Vector3 directionPlayer)

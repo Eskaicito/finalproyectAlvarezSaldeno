@@ -8,6 +8,7 @@ public class mesaGula : Interactable
     public override void interact()
     {
         Destroy(gameObject);
+        PecadosSingleton.instance.pecadoGula = true;
     }
 }
 
