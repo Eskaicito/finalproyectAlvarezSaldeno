@@ -659,6 +659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lanzallamasVFX
       objectReference: {fileID: 0}
+    - target: {fileID: 8091853830379396824, guid: 66018160813282f4282e5579bf6da263, type: 3}
+      propertyPath: m_TagString
+      value: playerAttack
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66018160813282f4282e5579bf6da263, type: 3}
 --- !u!4 &6893863063676889989 stripped
