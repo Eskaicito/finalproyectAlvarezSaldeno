@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SCENES/JARDIN.unity
+- path: Assets/SCENES/LABERINTO-ARENA.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
