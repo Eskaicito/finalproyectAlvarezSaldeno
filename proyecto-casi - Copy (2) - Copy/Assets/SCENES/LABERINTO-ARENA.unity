@@ -7533,6 +7533,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ---JUGADOR---
       objectReference: {fileID: 0}
+    - target: {fileID: 4679846955325290093, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
+      propertyPath: m_Range
+      value: 14.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4679846955325290093, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
+      propertyPath: m_Intensity
+      value: 8.39
+      objectReference: {fileID: 0}
     - target: {fileID: 6126789347961244239, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
       propertyPath: CollisionModule.colliderForce
       value: 1
@@ -7544,6 +7552,10 @@ PrefabInstance:
     - target: {fileID: 6126789347961244239, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
       propertyPath: CollisionModule.collisionMessages
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925172668014407889, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
