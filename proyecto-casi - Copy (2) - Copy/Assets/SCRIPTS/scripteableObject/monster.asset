@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3153a342fc0a33f4d83fd9bc847d9717, type: 3}
   m_Name: monster
   m_EditorClassIdentifier: 
-  enemyLife: 300
-  timer: 0.0305098
-  actualEnemyLife: 300
+  enemyLife: 600
+  maxEnemyLife: 600
+  timer: 0.0098275
+  actualEnemyLife: 600
   distanciaAtaqueEnemy: 5
   enemyDamage: 50
   playerDetectado: 1
   timerOnOff: 1
   persecucion: 0
-  distanciaPlayer: 1.8998712
+  distanciaPlayer: 10.300862
   player: {fileID: 0}
   speed: 5

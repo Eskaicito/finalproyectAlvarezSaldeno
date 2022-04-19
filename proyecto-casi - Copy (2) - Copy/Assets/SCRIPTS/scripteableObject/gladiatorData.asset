@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3153a342fc0a33f4d83fd9bc847d9717, type: 3}
   m_Name: gladiatorData
   m_EditorClassIdentifier: 
-  enemyLife: -90
-  timer: 0.0040083
-  actualEnemyLife: -90
+  enemyLife: 0
+  maxEnemyLife: 300
+  timer: 0.0063156
+  actualEnemyLife: 0
   distanciaAtaqueEnemy: 3
   enemyDamage: 20
   playerDetectado: 1
   timerOnOff: 1
   persecucion: 0
-  distanciaPlayer: 4.2585654
+  distanciaPlayer: 6.374143
   player: {fileID: 0}
   speed: 5
