@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 8023 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16300 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,116 +11,145 @@ C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Nicolas/Documents/pruebagithub/proyecto-casi - Copy (2) - Copy
+C:/´Marxssy/CODER/pruebagithub/proyecto-casi - Copy (2) - Copy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62509
-Successfully changed project path to: C:/Users/Nicolas/Documents/pruebagithub/proyecto-casi - Copy (2) - Copy
-C:/Users/Nicolas/Documents/pruebagithub/proyecto-casi - Copy (2) - Copy
+56918
+Successfully changed project path to: C:/´Marxssy/CODER/pruebagithub/proyecto-casi - Copy (2) - Copy
+C:/´Marxssy/CODER/pruebagithub/proyecto-casi - Copy (2) - Copy
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 422.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Nicolas/Documents/pruebagithub/proyecto-casi - Copy (2) - Copy/Assets
+[Subsystems] Discovering subsystems at path C:/´Marxssy/CODER/pruebagithub/proyecto-casi - Copy (2) - Copy/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Renderer: Radeon RX 570 Series (ID=0x67df)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   30.0.14.7212
+    VRAM:     4075 MB
+    Driver:   30.0.13023.4001
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005440 seconds.
+Registered in 0.002695 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 81.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.880 seconds
+- Completed reload, in  0.566 seconds
 Domain Reload Profiling:
-	ReloadAssembly (880ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (566ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (699ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (215ms)
+			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (281ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (167ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014842 seconds.
+Registered in 0.006827 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000023A862775A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A862191F0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA8A4E7E0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA8ACC230 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA8ACC230 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A862775A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A8648C020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA91F8020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A8648C020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA91F8020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A8648C020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA8ACC230 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A862775A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA8A2F490 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA9724020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA9724020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.743 seconds
+- Completed reload, in  0.992 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1745ms)
-		BeginReloadAssembly (229ms)
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1422ms)
-			LoadAssemblies (183ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (488ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (465ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (301ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1832 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.8 MB.
-System memory in use after: 189.8 MB.
+System memory in use before: 189.9 MB.
+System memory in use after: 190.0 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2294.
-Total: 11.984500 ms (FindLiveObjects: 0.533600 ms CreateObjectMapping: 0.223100 ms MarkObjects: 5.932100 ms  DeleteObjects: 5.284600 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2295.
+Total: 2.498100 ms (FindLiveObjects: 0.140100 ms CreateObjectMapping: 0.059800 ms MarkObjects: 2.230900 ms  DeleteObjects: 0.066500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,601 +163,88 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/PREFABS/ParticlesLight.prefab
-  artifactKey: Guid(61a6b3a108030e54ba372fe7097916d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PREFABS/ParticlesLight.prefab using Guid(61a6b3a108030e54ba372fe7097916d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eccc6a62ab66cfab53184b384309ea') in 0.116264 seconds 
-  Import took 0.125737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 827.468321 seconds.
-  path: Assets/bonfire
-  artifactKey: Guid(23d657bc5e1be9645afba6dcf2185045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire using Guid(23d657bc5e1be9645afba6dcf2185045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5795cf6b8d4a35eac24844e0710fb47a') in 0.024703 seconds 
-  Import took 0.157036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/bonfire/model.dae
-  artifactKey: Guid(351d456eccbf19646abf9fa39ed2f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/model.dae using Guid(351d456eccbf19646abf9fa39ed2f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893b9b6d0ed0404aa083e6a17627253f') in 0.403765 seconds 
-  Import took 0.408974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.326839 seconds.
-  path: Assets/bonfire/textures
-  artifactKey: Guid(de114e6f75e2e2b43b82d8e00c0505a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures using Guid(de114e6f75e2e2b43b82d8e00c0505a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5495dac4c200a9a628209d3daa8bb0be') in 0.008559 seconds 
-  Import took 0.023635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.121033 seconds.
-  path: Assets/bonfire/textures/asche_albedo.jpg
-  artifactKey: Guid(d5f62e836cb35aa459fa8be20ed6c5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/asche_albedo.jpg using Guid(d5f62e836cb35aa459fa8be20ed6c5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee0a8070677228a3bf7b0c407fe0323') in 0.169608 seconds 
-  Import took 0.174297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/bonfire/textures/knochen_metallic.jpg
-  artifactKey: Guid(26c51d5ab1560bb458f211132a2f334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/knochen_metallic.jpg using Guid(26c51d5ab1560bb458f211132a2f334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7af4f74ae706589af82b5ff38f6ac8c') in 0.022370 seconds 
-  Import took 0.027701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001177 seconds.
-  path: Assets/bonfire/textures/boden_normal.jpg
-  artifactKey: Guid(a817200da4879c842bf6195245604cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/boden_normal.jpg using Guid(a817200da4879c842bf6195245604cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5df6f0095963fa2c24893c2bce9e0c') in 0.021948 seconds 
-  Import took 0.028011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000589 seconds.
-  path: Assets/bonfire/textures/knochen_AO_0.jpg
-  artifactKey: Guid(dd1daf194c5477f49a2832a58fe79270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/knochen_AO_0.jpg using Guid(dd1daf194c5477f49a2832a58fe79270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe3434ff0c2c054a489976c508da0d6') in 0.063674 seconds 
-  Import took 0.072297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000589 seconds.
-  path: Assets/bonfire/textures/steine_metallic.jpg
-  artifactKey: Guid(ae25efe6321ed4a45a91dfde4c3395f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/steine_metallic.jpg using Guid(ae25efe6321ed4a45a91dfde4c3395f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cfedf975cc518e255cd4cb55453725') in 0.026032 seconds 
-  Import took 0.033396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000710 seconds.
-  path: Assets/bonfire/textures/asche_AO_0.jpg
-  artifactKey: Guid(9ae1120d0e44d9d4fab1ac4be255e436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/asche_AO_0.jpg using Guid(9ae1120d0e44d9d4fab1ac4be255e436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ae020bf78485c4e8e88b8d34567f8d') in 0.059596 seconds 
-  Import took 0.066817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000818 seconds.
-  path: Assets/bonfire/textures/klinge_roughness.jpg
-  artifactKey: Guid(11ec9896d264e9b4e83ec6c6fe010d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/klinge_roughness.jpg using Guid(11ec9896d264e9b4e83ec6c6fe010d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e767abe6c76cbeb2590908767c7c367') in 0.033945 seconds 
-  Import took 0.043726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000864 seconds.
-  path: Assets/bonfire/textures/boden_roughness.jpg
-  artifactKey: Guid(dd947ad6bc090e646bcbdb603fa6d970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/boden_roughness.jpg using Guid(dd947ad6bc090e646bcbdb603fa6d970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414ec8d74006cad39ca3331d4790dd77') in 0.068315 seconds 
-  Import took 0.079067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001110 seconds.
-  path: Assets/bonfire/textures/griff_AO.jpg
-  artifactKey: Guid(a69427f7881f2ef4e80daa1d8ea74d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/griff_AO.jpg using Guid(a69427f7881f2ef4e80daa1d8ea74d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ddb8787eafbadde4afa246c54407a7') in 0.094206 seconds 
-  Import took 0.106988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001212 seconds.
-  path: Assets/bonfire/textures/steine_albedo.jpg
-  artifactKey: Guid(059dbe28107ca2841bb0ea1adbf7ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/steine_albedo.jpg using Guid(059dbe28107ca2841bb0ea1adbf7ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d578c4773348dc1c590618e14b1380d') in 0.055740 seconds 
-  Import took 0.066712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000949 seconds.
-  path: Assets/bonfire/textures/asche_metallic.jpg
-  artifactKey: Guid(3cd0e9b53b7d2ec4892c36154077e6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/asche_metallic.jpg using Guid(3cd0e9b53b7d2ec4892c36154077e6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714f914ac35853fa0232e7bd85fbe01b') in 0.044778 seconds 
-  Import took 0.058265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000888 seconds.
-  path: Assets/bonfire/textures/steine_roughness.jpg
-  artifactKey: Guid(57484b3e9b470a04592271b804bc6e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/steine_roughness.jpg using Guid(57484b3e9b470a04592271b804bc6e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8099bb213fb2e75cafbed09f105c44d6') in 0.084020 seconds 
-  Import took 0.097140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000979 seconds.
-  path: Assets/bonfire/textures/steine_AO_0.jpg
-  artifactKey: Guid(9ddb352afd76db04f8ae860066358f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/steine_AO_0.jpg using Guid(9ddb352afd76db04f8ae860066358f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7125cd22917978ae740de3177aa0dd2') in 0.048007 seconds 
-  Import took 0.059979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000991 seconds.
-  path: Assets/bonfire/textures/schaedel_normal.jpg
-  artifactKey: Guid(b778e46c9e8bf224692182d8698bbb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/schaedel_normal.jpg using Guid(b778e46c9e8bf224692182d8698bbb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60ce27d80e76fc588f2ff458b506417') in 0.051372 seconds 
-  Import took 0.062605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001024 seconds.
-  path: Assets/bonfire/textures/asche_emissive.jpg
-  artifactKey: Guid(bbbf0145e59656642b43e3984181332c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/asche_emissive.jpg using Guid(bbbf0145e59656642b43e3984181332c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037ce40ec61384c1bd4208d8b304cc6d') in 0.049826 seconds 
-  Import took 0.063616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001060 seconds.
-  path: Assets/bonfire/textures/boden_albedo.jpg
-  artifactKey: Guid(1468b6df7b7f5fa41bec9e8be42fa853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/boden_albedo.jpg using Guid(1468b6df7b7f5fa41bec9e8be42fa853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51f8fa5ab9e87e4d317182817215f34') in 0.052122 seconds 
-  Import took 0.065215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001046 seconds.
-  path: Assets/bonfire/textures/griff_normal.jpg
-  artifactKey: Guid(f9a09eab8f523184dbbf220e14336c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/griff_normal.jpg using Guid(f9a09eab8f523184dbbf220e14336c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753f3ae846194952002d9b1a9f8f2bfd') in 0.049224 seconds 
-  Import took 0.062907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001009 seconds.
-  path: Assets/bonfire/textures/griff_metallic.jpg
-  artifactKey: Guid(a20536f926e36c046b3daaa442b94de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/griff_metallic.jpg using Guid(a20536f926e36c046b3daaa442b94de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31053ccbe4c6d97e80b33661e703e731') in 0.044136 seconds 
-  Import took 0.056637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002165 seconds.
-  path: Assets/bonfire/textures/steine_normal.jpg
-  artifactKey: Guid(7850df7599f4786488c7ecf304be8222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/steine_normal.jpg using Guid(7850df7599f4786488c7ecf304be8222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75f0efdb3f3984cda5723278f410dd6') in 0.051665 seconds 
-  Import took 0.063231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001102 seconds.
-  path: Assets/bonfire/textures/knochen_AO.jpg
-  artifactKey: Guid(32cb36179e504af4abe6b529c302f8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/knochen_AO.jpg using Guid(32cb36179e504af4abe6b529c302f8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c8a7b89036b023dd496b7b95a18a18') in 0.053256 seconds 
-  Import took 0.065270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001387 seconds.
-  path: Assets/bonfire/textures/schaedel_albedo.jpg
-  artifactKey: Guid(81df87b6a0089fb49ab43604dc73dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/schaedel_albedo.jpg using Guid(81df87b6a0089fb49ab43604dc73dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec73f9e9f1e3ec1c87f205fbff83e65') in 0.048362 seconds 
-  Import took 0.060336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001032 seconds.
-  path: Assets/bonfire/textures/klinge_albedo.jpg
-  artifactKey: Guid(0df643b4374916a44a557a687ae745ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/klinge_albedo.jpg using Guid(0df643b4374916a44a557a687ae745ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8495c5d2b91d67ca91683b21b205101b') in 0.047028 seconds 
-  Import took 0.060860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001065 seconds.
-  path: Assets/bonfire/textures/schaedel_metallic.jpg
-  artifactKey: Guid(b207fb08939132f4697fa5b9e8da8020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/schaedel_metallic.jpg using Guid(b207fb08939132f4697fa5b9e8da8020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95dd054d76941c2f7700d6765c5c98a8') in 0.053186 seconds 
-  Import took 0.065732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000982 seconds.
-  path: Assets/bonfire/textures/klinge_normal.jpg
-  artifactKey: Guid(90dc8705d7d2fa349b9de4424c082910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/klinge_normal.jpg using Guid(90dc8705d7d2fa349b9de4424c082910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d60c7fa719239c2fdfa9c7f9ec02b1') in 0.045001 seconds 
-  Import took 0.058061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001043 seconds.
-  path: Assets/bonfire/textures/asche_roughness.jpg
-  artifactKey: Guid(2b194a0d4125d3d4a91f8d21b08d8316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/asche_roughness.jpg using Guid(2b194a0d4125d3d4a91f8d21b08d8316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aa0fdd6da1276d1414c68b3881a782') in 0.057727 seconds 
-  Import took 0.070490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001036 seconds.
-  path: Assets/bonfire/textures/klinge_metallic.jpg
-  artifactKey: Guid(d84737b2213b13e42baa7b3553c69d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/klinge_metallic.jpg using Guid(d84737b2213b13e42baa7b3553c69d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a038dcdd72b5e6a1acba845ad4793727') in 0.059913 seconds 
-  Import took 0.075704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000744 seconds.
-  path: Assets/bonfire/textures/griff_roughness.jpg
-  artifactKey: Guid(e54555a399e95554ba8919988f71e8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/griff_roughness.jpg using Guid(e54555a399e95554ba8919988f71e8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48f3c6656dd6cb0378a6ae4b6724293') in 0.029251 seconds 
-  Import took 0.037006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000721 seconds.
-  path: Assets/bonfire/textures/asche_AO.jpg
-  artifactKey: Guid(6f6d552606800464cb822011ee0b3e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/asche_AO.jpg using Guid(6f6d552606800464cb822011ee0b3e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c92396c076b8f11bcbacd56d34f4fe') in 0.029181 seconds 
-  Import took 0.035904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/bonfire/textures/griff_emissive.jpg
-  artifactKey: Guid(c68da2eeb1d5ee64b9bc316f715aad5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/griff_emissive.jpg using Guid(c68da2eeb1d5ee64b9bc316f715aad5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab221e51fdd63f5dfc683a3b9d55646') in 0.027306 seconds 
-  Import took 0.033783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/bonfire/textures/schaedel_roughness.jpg
-  artifactKey: Guid(dbe7f7db4656c1540af596c043a8f59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/schaedel_roughness.jpg using Guid(dbe7f7db4656c1540af596c043a8f59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446fcc0c69726ec682021f958f7e7aea') in 0.025115 seconds 
-  Import took 0.031550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/bonfire/textures/knochen_albedo.jpg
-  artifactKey: Guid(9c866a85989ef5a48899646eedfdea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/knochen_albedo.jpg using Guid(9c866a85989ef5a48899646eedfdea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a244e8881f24b704fef172dac852fbe4') in 0.026284 seconds 
-  Import took 0.032175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/bonfire/textures/klinge_emissive.jpg
-  artifactKey: Guid(42214e91ab77fc143b57b7d4d574b7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/klinge_emissive.jpg using Guid(42214e91ab77fc143b57b7d4d574b7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2551207950d34e92f70cbb298c3e1cd5') in 0.023871 seconds 
-  Import took 0.030006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/bonfire/textures/klinge_AO.jpg
-  artifactKey: Guid(2c2d96e0d95481f4397c6720901020b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/klinge_AO.jpg using Guid(2c2d96e0d95481f4397c6720901020b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bf9c226c691eeb19420ed7250d612b') in 0.022253 seconds 
-  Import took 0.028094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/bonfire/textures/boden_metallic.jpg
-  artifactKey: Guid(f461e51cafd552442aba0954b15737ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/boden_metallic.jpg using Guid(f461e51cafd552442aba0954b15737ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21003881a6e6d8cb993b97659385b733') in 0.019722 seconds 
-  Import took 0.025990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/bonfire/textures/knochen_roughness.jpg
-  artifactKey: Guid(16cb092f8e6c41245a5f14b65b495f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/knochen_roughness.jpg using Guid(16cb092f8e6c41245a5f14b65b495f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3847712a78bb8c7e3b387861361d647') in 0.025228 seconds 
-  Import took 0.034877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000729 seconds.
-  path: Assets/bonfire/textures/knochen_normal.jpg
-  artifactKey: Guid(286e9a58e35a19e48b4f8784346a09b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/knochen_normal.jpg using Guid(286e9a58e35a19e48b4f8784346a09b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7001f25d059b0de209d1df3ad84eb5b') in 0.033972 seconds 
-  Import took 0.043898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000690 seconds.
-  path: Assets/bonfire/textures/griff_albedo.jpg
-  artifactKey: Guid(1acfa2c8963d44a4d9f256df7639d316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/griff_albedo.jpg using Guid(1acfa2c8963d44a4d9f256df7639d316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b86003484e165e48ba8705d70473c3') in 0.044547 seconds 
-  Import took 0.055279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000999 seconds.
-  path: Assets/bonfire/textures/steine_AO.jpg
-  artifactKey: Guid(2de0aed380d5de04d918a267205699e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/steine_AO.jpg using Guid(2de0aed380d5de04d918a267205699e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75484466deae2168132cdbd45f8ae49d') in 0.048582 seconds 
-  Import took 0.061295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000980 seconds.
-  path: Assets/bonfire/textures/schaedel_AO_0.jpg
-  artifactKey: Guid(6bba09a18c1ca364b9b2ae507c755bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/schaedel_AO_0.jpg using Guid(6bba09a18c1ca364b9b2ae507c755bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fe3e8ebdd3c64941d28694974fae1c') in 0.051665 seconds 
-  Import took 0.063816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000873 seconds.
-  path: Assets/bonfire/textures/schaedel_AO.jpg
-  artifactKey: Guid(051e66de4764bd644b084ad7f8b2dd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/schaedel_AO.jpg using Guid(051e66de4764bd644b084ad7f8b2dd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a579a0572f123f84cf9944220fbb3fe6') in 0.046359 seconds 
-  Import took 0.060088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000838 seconds.
-  path: Assets/bonfire/textures/boden_AO.jpg
-  artifactKey: Guid(b272cc63eef2f1947baa46be31d9e6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/boden_AO.jpg using Guid(b272cc63eef2f1947baa46be31d9e6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4351b6e40085a898b722a5fddc1aa04f') in 0.050608 seconds 
-  Import took 0.061910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000960 seconds.
-  path: Assets/bonfire/textures/asche_normal.jpg
-  artifactKey: Guid(e37811973076ad04d9387aab1dfe32f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/asche_normal.jpg using Guid(e37811973076ad04d9387aab1dfe32f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3266a4f2acd5c2a0f32b35173ccd1e51') in 0.047570 seconds 
-  Import took 0.060267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001067 seconds.
-  path: Assets/bonfire/textures/boden_AO_0.jpg
-  artifactKey: Guid(534db5e49dbbc0b4181b93d26032a87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/boden_AO_0.jpg using Guid(534db5e49dbbc0b4181b93d26032a87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c9ef055755a574c40e66049ed80207') in 0.047445 seconds 
-  Import took 0.062022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000909 seconds.
-  path: Assets/bonfire/textures/griff_AO_0.jpg
-  artifactKey: Guid(dc18446a3be8d2f4abe18c0a432d56d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/griff_AO_0.jpg using Guid(dc18446a3be8d2f4abe18c0a432d56d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc25f31a0f1dbd28a74420c60df2538d') in 0.050419 seconds 
-  Import took 0.066672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000848 seconds.
-  path: Assets/bonfire/textures/klinge_AO_0.jpg
-  artifactKey: Guid(5c7f81916fe13d048842a71f2f753437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/klinge_AO_0.jpg using Guid(5c7f81916fe13d048842a71f2f753437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacd3258ace511542bc77db660059c7f') in 0.044474 seconds 
-  Import took 0.058944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.857911 seconds.
-  path: Assets/bonfire/model.dae
-  artifactKey: Guid(351d456eccbf19646abf9fa39ed2f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/model.dae using Guid(351d456eccbf19646abf9fa39ed2f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e55d18c7f5500d0343458f42e4a552e') in 0.366894 seconds 
-  Import took 0.377014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.136929 seconds.
-  path: Assets/bonfire/textures/asche.mat
-  artifactKey: Guid(0c4dd462df7b08348af87b615242d3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/asche.mat using Guid(0c4dd462df7b08348af87b615242d3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b168ca577e60dd6a77162bc4e671c54b') in 0.040613 seconds 
-  Import took 0.049738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/bonfire/textures/knochen.mat
-  artifactKey: Guid(b2b503c106061dd4290ee286feadf4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/knochen.mat using Guid(b2b503c106061dd4290ee286feadf4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df777cbd8c94509022fdd362f5bba5df') in 0.016643 seconds 
-  Import took 0.021943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/bonfire/textures/griff.mat
-  artifactKey: Guid(1d62e7b28d1516348aee8dad871745fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/griff.mat using Guid(1d62e7b28d1516348aee8dad871745fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3d46606af645b1fdfeba28b3ff891b') in 0.018015 seconds 
-  Import took 0.023407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000721 seconds.
-  path: Assets/bonfire/textures/steine.mat
-  artifactKey: Guid(1d4b055f80b1e044286f856cdf199d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/steine.mat using Guid(1d4b055f80b1e044286f856cdf199d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0f9f5ab339003d68982b2bcd7d9891') in 0.019787 seconds 
-  Import took 0.026790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/bonfire/textures/klinge.mat
-  artifactKey: Guid(2882d7c877a2c56448d6e1a50f325698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/klinge.mat using Guid(2882d7c877a2c56448d6e1a50f325698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf7cda6ca2ca8a602672ed638164f91') in 0.023119 seconds 
-  Import took 0.028935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000508 seconds.
-  path: Assets/bonfire/textures/boden.mat
-  artifactKey: Guid(99ca707ad34e47b409aa0e5af8bf8d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/boden.mat using Guid(99ca707ad34e47b409aa0e5af8bf8d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e9a793be7166cd6b7b1e9e3af7d944') in 0.018908 seconds 
-  Import took 0.024872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000545 seconds.
-  path: Assets/bonfire/textures/schaedel.mat
-  artifactKey: Guid(c9384bfee6077e94d9fe9257eb4715d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/schaedel.mat using Guid(c9384bfee6077e94d9fe9257eb4715d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1c3ce001e54614d9c8880b15feff84') in 0.020413 seconds 
-  Import took 0.027548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 269.158549 seconds.
-  path: Assets/bonfire/textures/knochen.mat
-  artifactKey: Guid(b2b503c106061dd4290ee286feadf4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/knochen.mat using Guid(b2b503c106061dd4290ee286feadf4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a38edc4131027aceba8ec045f382df5') in 0.070250 seconds 
-  Import took 0.078283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/bonfire/textures/steine.mat
-  artifactKey: Guid(1d4b055f80b1e044286f856cdf199d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/steine.mat using Guid(1d4b055f80b1e044286f856cdf199d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2066d0f26808abcf5e50fa8d64da6b8') in 0.044099 seconds 
-  Import took 0.050070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/bonfire/textures/schaedel.mat
-  artifactKey: Guid(c9384bfee6077e94d9fe9257eb4715d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/schaedel.mat using Guid(c9384bfee6077e94d9fe9257eb4715d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91eaeb16bacba5bb1461034154d862c9') in 0.042427 seconds 
-  Import took 0.048261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056668 seconds.
-  path: Assets/bonfire/textures/griff.mat
-  artifactKey: Guid(1d62e7b28d1516348aee8dad871745fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/griff.mat using Guid(1d62e7b28d1516348aee8dad871745fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b4097dea6fb63a12724714a31a4632') in 0.148865 seconds 
-  Import took 0.158298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000883 seconds.
-  path: Assets/bonfire/textures/klinge.mat
-  artifactKey: Guid(2882d7c877a2c56448d6e1a50f325698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/klinge.mat using Guid(2882d7c877a2c56448d6e1a50f325698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbef58023fae63e277603a8a00bb3235') in 0.080938 seconds 
-  Import took 0.096216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.168060 seconds.
-  path: Assets/bonfire/textures/boden_normal.jpg
-  artifactKey: Guid(a817200da4879c842bf6195245604cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/boden_normal.jpg using Guid(a817200da4879c842bf6195245604cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f610e5aac2df153de711b604cb0af21') in 0.046619 seconds 
-  Import took 0.064314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000584 seconds.
-  path: Assets/bonfire/textures/schaedel_normal.jpg
-  artifactKey: Guid(b778e46c9e8bf224692182d8698bbb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/schaedel_normal.jpg using Guid(b778e46c9e8bf224692182d8698bbb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad105e6c34a955d79b18b8985582f0d') in 0.050134 seconds 
-  Import took 0.062313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000592 seconds.
-  path: Assets/bonfire/textures/griff_normal.jpg
-  artifactKey: Guid(f9a09eab8f523184dbbf220e14336c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/griff_normal.jpg using Guid(f9a09eab8f523184dbbf220e14336c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58da3fc150591cfe677f8d1d1151a40') in 0.061113 seconds 
-  Import took 0.069661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000614 seconds.
-  path: Assets/bonfire/textures/steine_normal.jpg
-  artifactKey: Guid(7850df7599f4786488c7ecf304be8222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/steine_normal.jpg using Guid(7850df7599f4786488c7ecf304be8222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e5dc385470d2ea8e291d02d47ccd29') in 0.035978 seconds 
-  Import took 0.043786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/bonfire/textures/klinge_normal.jpg
-  artifactKey: Guid(90dc8705d7d2fa349b9de4424c082910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/klinge_normal.jpg using Guid(90dc8705d7d2fa349b9de4424c082910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e273ff3f96c01a573f1aae83e5f1aa') in 0.033019 seconds 
-  Import took 0.041704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000625 seconds.
-  path: Assets/bonfire/textures/knochen_normal.jpg
-  artifactKey: Guid(286e9a58e35a19e48b4f8784346a09b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bonfire/textures/knochen_normal.jpg using Guid(286e9a58e35a19e48b4f8784346a09b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abfcf566e9401ae378eca08273bc560') in 0.035317 seconds 
-  Import took 0.045125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 212.022468 seconds.
-  path: Assets/PREFABS/PLAYER/---JUGADOR---.prefab
-  artifactKey: Guid(5806256ce72f4cd498eddf44f785416f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PREFABS/PLAYER/---JUGADOR---.prefab using Guid(5806256ce72f4cd498eddf44f785416f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cda078353c82b2e11acc26453f936b') in 0.407293 seconds 
-  Import took 0.419845 seconds .
+  path: Assets/SCENES/JARDIN.unity
+  artifactKey: Guid(7cd0c015d01b5c041ba27d24f52a654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES/JARDIN.unity using Guid(7cd0c015d01b5c041ba27d24f52a654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943f3785d0a5aa7fe00e155faeb910c5') in 0.013274 seconds 
+  Import took 0.016069 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009989 seconds.
+Registered in 0.006762 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000023A863E5730 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AAA642420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AAA65EE40 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA979C020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA979C020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AAA368030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA975B230 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA91F8020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA979C020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA9553020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A86350460 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AA8BF1430 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AAA368030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AAD6C9E30 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023AAD1DD010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023A86664170 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.715 seconds
+- Completed reload, in  0.958 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1716ms)
-		BeginReloadAssembly (270ms)
+	ReloadAssembly (958ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (144ms)
-		EndReloadAssembly (1332ms)
-			LoadAssemblies (153ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (479ms)
+			SetupTypeCache (267ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (491ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1777 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 202.2 MB.
-System memory in use after: 202.3 MB.
+System memory in use before: 184.9 MB.
+System memory in use after: 185.0 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2344.
-Total: 3.922300 ms (FindLiveObjects: 0.204900 ms CreateObjectMapping: 0.099300 ms MarkObjects: 3.595700 ms  DeleteObjects: 0.021200 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2297.
+Total: 2.513200 ms (FindLiveObjects: 0.139700 ms CreateObjectMapping: 0.054800 ms MarkObjects: 2.300300 ms  DeleteObjects: 0.017400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -740,4 +256,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 129.125968 seconds.
+  path: Assets/PREFABS/ParticlesLight.prefab
+  artifactKey: Guid(61a6b3a108030e54ba372fe7097916d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/ParticlesLight.prefab using Guid(61a6b3a108030e54ba372fe7097916d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143e211a8901e9166ea255924fbc5779') in 0.044278 seconds 
+  Import took 0.047245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.943074 seconds.
+  path: Assets/PREFABS/enemys/GLADIATOR.prefab
+  artifactKey: Guid(f24af972a82c54d4787b3782c2d2d9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/enemys/GLADIATOR.prefab using Guid(f24af972a82c54d4787b3782c2d2d9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64395f374be8cd825c353b5c4d352c0e') in 0.166963 seconds 
+  Import took 0.170913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/PREFABS/enemys/MONSTER.prefab
+  artifactKey: Guid(de4a9b9e40c2373449cb6115632ecae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/enemys/MONSTER.prefab using Guid(de4a9b9e40c2373449cb6115632ecae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56160fca3635684f7711901a42216328') in 0.031124 seconds 
+  Import took 0.034238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/PREFABS/enemys/LUCIFER.prefab
+  artifactKey: Guid(3cc901356bb920546a1ef0d0f74e28f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/enemys/LUCIFER.prefab using Guid(3cc901356bb920546a1ef0d0f74e28f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1da25db39892958e391e90dc0dece1') in 0.124987 seconds 
+  Import took 0.128191 seconds .
+

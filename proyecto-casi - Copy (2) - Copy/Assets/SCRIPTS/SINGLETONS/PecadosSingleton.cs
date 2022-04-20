@@ -33,14 +33,15 @@ public class PecadosSingleton : MonoBehaviour
     }
 
     private void Update() {
-        if (pecadoAvaricia == true){
-            luzAvaricia.SetActive(true);
-        }
+        
         if (pecadoIra == true){
             //cambiar color de lanzallamas
             GameManager.instance.flamethrowerDamage = 300;
         }
 
+       if (pecadoEnvidia == true){
+           luzAvaricia.SetActive(true);
+       } 
 
         if (pecadoGula && pecadoAvaricia && pecadoLujuria && pecadoIra && pecadoPereza && pecadoEnvidia){
             playerPecador = true;

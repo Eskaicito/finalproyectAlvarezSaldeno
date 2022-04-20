@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.2817481, g: 0.25501117, b: 0.26614207, a: 1}
+  m_IndirectSpecularColor: {r: 0.28174758, g: 0.25501078, b: 0.26614136, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3785,7 +3785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &938433827
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7326,7 +7326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1947949357
 Transform:
   m_ObjectHideFlags: 0
@@ -7533,6 +7533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ---JUGADOR---
       objectReference: {fileID: 0}
+    - target: {fileID: 4536370370447649813, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4679846955325290093, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
       propertyPath: m_Range
       value: 14.3
@@ -7540,6 +7544,10 @@ PrefabInstance:
     - target: {fileID: 4679846955325290093, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
       propertyPath: m_Intensity
       value: 8.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723736093626270967, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6126789347961244239, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
       propertyPath: CollisionModule.colliderForce
@@ -7555,7 +7563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8925172668014407889, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
@@ -8332,7 +8340,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7901190586015650309, guid: 6f6147a83637f7f46960ac143d35a8df, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7901190586352477014, guid: 6f6147a83637f7f46960ac143d35a8df, type: 3}
       propertyPath: m_Name
