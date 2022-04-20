@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: miniSpider
   m_EditorClassIdentifier: 
   timer: 0.0059999
-  distanciaAtaqueEnemy: 1.2
+  monedasDrop: 1
+  distanciaAtaqueEnemy: 3
   enemyDamage: 5
   distanciaPlayer: 2.3487916
   player: {fileID: 0}

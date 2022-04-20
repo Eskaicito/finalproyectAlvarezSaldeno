@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class enemigosPadre : MonoBehaviour
 {
-    [SerializeField] enemyData enemyData;
+    [SerializeField] public enemyData enemyData;
     [SerializeField] lifeData lifeData;
     void Start()
     {
@@ -22,6 +22,7 @@ public class enemigosPadre : MonoBehaviour
     void Update()
     {
         if (lifeData.enemyLife < 1){
+            GameManager.instance.coins += enemyData.monedasDrop;
             Destroy(gameObject);
         }
         if(enemyData.distanciaPlayer >=403){
@@ -70,9 +71,11 @@ public class enemigosPadre : MonoBehaviour
     public void enemyAtaca()
     {
         animacionAtacar();
+        GameManager.instance.playerGolpeado = true;
     }
     public void enemyNoAtaca()
     {
+         GameManager.instance.playerGolpeado = false;
         animacionNoAtacar();
     }
 
@@ -90,7 +93,6 @@ public class enemigosPadre : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             lifeData.persecucion = true;
-            Debug.Log("aa");
             lifeData.playerDetectado = true;
         }
     }

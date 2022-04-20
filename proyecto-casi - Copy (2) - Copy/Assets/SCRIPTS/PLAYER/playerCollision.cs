@@ -7,7 +7,6 @@ public class playerCollision : MonoBehaviour
 {
     [SerializeField] GameObject checkpoint;
     [SerializeField] GameObject player;
-    private int dañoBala = 20;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -16,7 +15,7 @@ public class playerCollision : MonoBehaviour
     }
     void Start()
     {
-        Debug.Log("INICIO DE NUEVO"+ checkpoint.GetComponent<checkpoinManager>().actualCP);
+        Debug.Log("INICIO DE NUEVO" + checkpoint.GetComponent<checkpoinManager>().actualCP);
         player.transform.position = checkpoint.GetComponent<checkpoinManager>().actualCP;
     }
 
@@ -38,10 +37,32 @@ public class playerCollision : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("enemyAttack"))
+
+        if (other.gameObject.CompareTag("enemyAttack") && GameManager.instance.playerGolpeado == true)
         {
-            GameManager.instance.playerLife -= dañoBala;
+
+            if (other.gameObject.name == "cajaDañoSpider")
+            {
+                GameManager.instance.playerLife -= GameObject.Find("MINISPIDER").GetComponent<enemigosPadre>().enemyData.EnemyDamage;
+            }
+            if (other.gameObject.name == "cajaDañoBigSpider")
+            {
+                GameManager.instance.playerLife -= GameObject.Find("BIGSPIDER").GetComponent<enemigosPadre>().enemyData.EnemyDamage;
+            }
+            if (other.gameObject.name == "cajaDañoGladiator")
+            {
+                GameManager.instance.playerLife -= GameObject.Find("GLADIATOR").GetComponent<enemigosPadre>().enemyData.EnemyDamage;
+            }
+            if (other.gameObject.name == "cajaDañoBigGladiator")
+            {
+                GameManager.instance.playerLife -= GameObject.Find("BIG GLADIATOR").GetComponent<enemigosPadre>().enemyData.EnemyDamage;
+            }
+            if (other.gameObject.name == "cajaDañoMonster")
+            {
+                GameManager.instance.playerLife -= GameObject.Find("MONSTER").GetComponent<enemigosPadre>().enemyData.EnemyDamage;
+            }
         }
+        
         if (other.gameObject.CompareTag("JARDINPORTAL"))
         {
             checkpoint.GetComponent<checkpoinManager>().actualCP = new Vector3(5, 3, -18);
@@ -54,7 +75,7 @@ public class playerCollision : MonoBehaviour
         }
         if (other.gameObject.CompareTag("checkPoint"))
         {
-            GameManager.instance.itsClose = true;
+
         }
     }
     private void muerto()

@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public int playerCoins;
     public float playerLife, maxPlayerLife, flamethrowerDamage;
-    public bool itsClose;
+    public bool playerGolpeado = false;
+    
     public TextMeshProUGUI textGameOver;
     public TextMeshProUGUI dracmas;
     public GameObject player;
@@ -29,7 +30,7 @@ public class GameManager : MonoBehaviour
             maxPlayerLife = 100;
             playerCoins = 0;
             flamethrowerDamage = 5f;
-            itsClose = false;
+            
         }
         else
         {
@@ -48,7 +49,7 @@ public class GameManager : MonoBehaviour
         }
     }
     IEnumerator death(){
-        itsClose = false;
+        
         OnDeath?.Invoke();
         textGameOver.gameObject.SetActive(true);
         yield return new WaitForSeconds(3f);
