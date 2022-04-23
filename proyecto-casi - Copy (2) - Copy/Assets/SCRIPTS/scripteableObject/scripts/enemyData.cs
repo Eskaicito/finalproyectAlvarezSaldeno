@@ -8,6 +8,8 @@ public class enemyData : ScriptableObject
 
     [SerializeField] public float timer;
     [SerializeField] public int monedasDrop;
+    [SerializeField] public int bolaFuegoDaño = 50;
+
     [SerializeField] private float distanciaAtaqueEnemy;
     [SerializeField] private int enemyDamage;
     

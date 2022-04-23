@@ -5,15 +5,17 @@ using UnityEngine;
 public class playerCharacter : MonoBehaviour
 {
     [SerializeField] float speed = 8f;
-    
+    public Vector3 directionPlayer = Vector3.zero;
+    private Vector3 directionPlayerPrivate = Vector3.zero;
     private Vector3 velocidad;
     [SerializeField] float gravedad = -9.81f;
     [SerializeField] float alturaSalto = 10f;
 
-    [SerializeField] CharacterController ccPlayer;
+    [SerializeField] public CharacterController ccPlayer;
     [SerializeField] private Animator playerAnimator;
     private AudioManager audioManager;
     public ParticleSystem fuego;
+    public ParticleSystem fuegoIra;
     public GameObject jardin;
     public GameObject alcantarillas;
     public GameObject laberinto;
@@ -27,7 +29,11 @@ public class playerCharacter : MonoBehaviour
     }
     void Start()
     {
-        //fuego.startColor = Color.black;
+        fuego = transform.Find("Camera").transform.Find("lanzallamasVFX").GetComponent<ParticleSystem>();
+        fuegoIra = transform.Find("Camera").transform.Find("lanzallamasVFX2").GetComponent<ParticleSystem>();
+        fuegoIra.gameObject.SetActive(false);
+        fuego.gameObject.SetActive(true);
+
         ccPlayer = GetComponent<CharacterController>();
         jardin = GameObject.Find("JARDIN");
         alcantarillas = GameObject.Find("ALCANTARILLAS");
@@ -39,6 +45,13 @@ public class playerCharacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (PecadosSingleton.instance.pecadoIra){
+           fuego.gameObject.SetActive(false);
+           fuegoIra.gameObject.SetActive(true);
+        }
+
+
+
         if (ccPlayer.isGrounded)
         {
             dobleJump = false;
@@ -79,10 +92,10 @@ public class playerCharacter : MonoBehaviour
             }
         }
     }
-    private void PlayerMovement(Vector3 directionPlayer)
+    private void PlayerMovement()
     {
         //transform.Translate(speed * Time.deltaTime * directionPlayer);
-        ccPlayer.Move(speed * Time.deltaTime * transform.TransformDirection(directionPlayer));
+        ccPlayer.Move(speed * Time.deltaTime * transform.TransformDirection(directionPlayerPrivate));
 
     }
     private void playerMoving()
@@ -93,25 +106,37 @@ public class playerCharacter : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.W))
         {
-            PlayerMovement(Vector3.forward);
+            directionPlayer = Vector3.zero;
+            directionPlayer = Vector3.forward;
+            directionPlayerPrivate = Vector3.forward;
+            PlayerMovement();
             playerAnimator.SetBool("IsRun", true);
 
         }
         if (Input.GetKey(KeyCode.D))
         {
-            PlayerMovement(Vector3.right);
+            directionPlayer = Vector3.zero;
+            directionPlayer = Vector3.right;
+            directionPlayerPrivate = Vector3.right;
+            PlayerMovement();
             playerAnimator.SetBool("IsRunRight", true);
 
         }
         if (Input.GetKey(KeyCode.A))
         {
-            PlayerMovement(Vector3.left);
+            directionPlayer = Vector3.zero;
+            directionPlayer = Vector3.left; 
+            directionPlayerPrivate = Vector3.left;
+            PlayerMovement();
             playerAnimator.SetBool("IsRunLeft", true);
 
         }
         if (Input.GetKey(KeyCode.S))
         {
-            PlayerMovement(Vector3.back);
+            directionPlayer = Vector3.zero;
+            directionPlayer = Vector3.back; 
+            directionPlayerPrivate = Vector3.back;
+            PlayerMovement();
             playerAnimator.SetBool("IsRunBack", true);
 
         }
@@ -175,5 +200,7 @@ public class playerCharacter : MonoBehaviour
     public void fireAttack(){
         audioManager.seleccionAudio(2,0.2f);
         fuego.Play();
+        fuegoIra.Play();
     }
+    
 }

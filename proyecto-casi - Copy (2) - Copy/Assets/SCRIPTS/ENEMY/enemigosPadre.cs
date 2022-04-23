@@ -122,4 +122,9 @@ public class enemigosPadre : MonoBehaviour
             lifeData.enemyLife -= GameManager.instance.flamethrowerDamage;
         }
     }
+    private void OnTriggerEnter(Collider other) {
+        if (other.transform.CompareTag("bolaFuego")){
+            lifeData.enemyLife -= enemyData.bolaFuegoDaño;
+        }
+    }
 }

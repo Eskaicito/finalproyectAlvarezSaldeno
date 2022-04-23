@@ -14,6 +14,7 @@ TagManager:
   - enemyAttack
   - Interact
   - GULA
+  - bolaFuego
   layers:
   - Default
   - TransparentFX

@@ -7,12 +7,15 @@ public class checkpoinManager : MonoBehaviour
     private Scene escenaActiva;
     private Scene jardinScene;
     private Scene alcantarillaScene;
-    public Vector3 actualCP;
+    public Vector3 actualCP = Vector3.zero;
     private void Awake()
     {
         escenaActiva = (SceneManager.GetActiveScene());
         int countCM = FindObjectsOfType<checkpoinManager>().Length;
-        actualCP = new Vector3(-200,256,185);
+        if (actualCP == Vector3.zero)
+        {
+            actualCP = new Vector3(-183, 234, 254);
+        }
         if (countCM > 1)
         {
             Destroy(gameObject);
