@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: monster 3
   m_EditorClassIdentifier: 
   enemyLife: 1000
-  maxEnemyLife: 0
+  maxEnemyLife: 1000
   actualEnemyLife: 0
   persecucion: 0
   playerDetectado: 0

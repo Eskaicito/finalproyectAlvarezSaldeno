@@ -16,13 +16,14 @@ public class playerCollision : MonoBehaviour
     void Start()
     {
         Debug.Log("INICIO DE NUEVO" + checkpoint.GetComponent<checkpoinManager>().actualCP);
-        player.transform.position = checkpoint.GetComponent<checkpoinManager>().actualCP;
+        
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.position = checkpoint.GetComponent<checkpoinManager>().actualCP;
+        //gameObject.transform.position = checkpoint.GetComponent<checkpoinManager>().actualCP;
         /*if (GameManager.instance.playerLife < 1)
         {
             GameManager.instance.playerLife = 150;
@@ -66,20 +67,21 @@ public class playerCollision : MonoBehaviour
         if (other.gameObject.CompareTag("JARDINPORTAL"))
         {
             checkpoint.GetComponent<checkpoinManager>().actualCP = new Vector3(5, 3, -18);
+            GameManager.instance.startAgain = true;
+            GameManager.instance.escenaActiva = 2;
             SceneManager.LoadScene("ALCANTARILLAS");
         }
         if (other.gameObject.CompareTag("PORTAL2"))
         {
-
+            checkpoint.GetComponent<checkpoinManager>().actualCP = new Vector3(-8.3f, -2.46f, -345f);
+            GameManager.instance.startAgain = true;
+            GameManager.instance.escenaActiva = 3;
             SceneManager.LoadScene("LABERINTO-ARENA");
-        }
-        if (other.gameObject.CompareTag("checkPoint"))
-        {
-
         }
     }
     private void muerto()
     {
         Destroy(this);
     }
+
 }

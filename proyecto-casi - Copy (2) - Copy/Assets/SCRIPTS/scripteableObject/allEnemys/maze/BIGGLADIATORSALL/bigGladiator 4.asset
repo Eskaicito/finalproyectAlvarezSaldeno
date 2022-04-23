@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: bigGladiator 4
   m_EditorClassIdentifier: 
   enemyLife: 500
-  maxEnemyLife: 0
+  maxEnemyLife: 500
   actualEnemyLife: 0
   persecucion: 0
   playerDetectado: 0

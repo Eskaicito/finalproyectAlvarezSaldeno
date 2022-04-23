@@ -21,6 +21,8 @@ public class playerCharacter : MonoBehaviour
     public GameObject laberinto;
     public GameObject arena; 
     private bool dobleJump;
+     [SerializeField] GameObject checkpoint;
+     [SerializeField] GameObject player;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -29,6 +31,8 @@ public class playerCharacter : MonoBehaviour
     }
     void Start()
     {
+        checkpoint = FindObjectOfType<checkpoinManager>().gameObject;
+        StartCoroutine(inicioPlayer());
         fuego = transform.Find("Camera").transform.Find("lanzallamasVFX").GetComponent<ParticleSystem>();
         fuegoIra = transform.Find("Camera").transform.Find("lanzallamasVFX2").GetComponent<ParticleSystem>();
         fuegoIra.gameObject.SetActive(false);
@@ -43,6 +47,11 @@ public class playerCharacter : MonoBehaviour
     }
 
     // Update is called once per frame
+    private void FixedUpdate() {
+        if (GameManager.instance.startAgain == true){
+            StartCoroutine(inicioPlayer());
+        }
+    }
     void Update()
     {
         if (PecadosSingleton.instance.pecadoIra){
@@ -187,6 +196,7 @@ public class playerCharacter : MonoBehaviour
 
     private void muerto()
     {
+        GameManager.instance.startAgain = true;
         Destroy(this);
     }
     public void footsteps(){
@@ -203,4 +213,9 @@ public class playerCharacter : MonoBehaviour
         fuegoIra.Play();
     }
     
+    IEnumerator inicioPlayer(){
+        yield return new WaitForSeconds(0.5f);
+        player.transform.position = checkpoint.GetComponent<checkpoinManager>().actualCP;
+        GameManager.instance.startAgain = false;
+    }
 }

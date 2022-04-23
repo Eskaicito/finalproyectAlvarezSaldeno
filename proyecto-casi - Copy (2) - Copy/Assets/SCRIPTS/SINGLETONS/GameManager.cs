@@ -18,7 +18,9 @@ public class GameManager : MonoBehaviour
     public GameObject checkpoint;
     public int coins;
     public event Action OnDeath;
-
+    
+    public bool startAgain = true;
+    public int escenaActiva = 1;
 
     private void Awake()
     {
@@ -43,7 +45,7 @@ public class GameManager : MonoBehaviour
     private void Update() {
         dracmas.text = ""+coins;
         if (playerLife < 1){
-            player.transform.position = new Vector3(100,100,100);
+            startAgain = true;
             playerLife = maxPlayerLife;
             StartCoroutine(death());
         }
@@ -53,7 +55,7 @@ public class GameManager : MonoBehaviour
         OnDeath?.Invoke();
         textGameOver.gameObject.SetActive(true);
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("ALCANTARILLAS");
+        SceneManager.LoadScene(escenaActiva);
         textGameOver.gameObject.SetActive(false);
         player.transform.position = checkpoint.GetComponent<checkpoinManager>().actualCP;
     }

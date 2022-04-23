@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: bigSpider 3
   m_EditorClassIdentifier: 
   enemyLife: 700
-  maxEnemyLife: 0
+  maxEnemyLife: 700
   actualEnemyLife: 0
   persecucion: 0
   playerDetectado: 0

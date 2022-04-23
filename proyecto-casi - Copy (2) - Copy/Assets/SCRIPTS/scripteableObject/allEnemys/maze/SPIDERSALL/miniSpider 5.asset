@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: miniSpider 5
   m_EditorClassIdentifier: 
   enemyLife: 200
-  maxEnemyLife: 0
+  maxEnemyLife: 200
   actualEnemyLife: 0
   persecucion: 0
   playerDetectado: 0
