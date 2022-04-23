@@ -42,6 +42,7 @@ public class PecadosSingleton : MonoBehaviour
         }
 
        if (pecadoEnvidia == true){
+           luzAvaricia = GameObject.Find("---JUGADOR---").transform.Find("FX_GlowSpot_01").gameObject;
            luzAvaricia.SetActive(true);
        } 
 
