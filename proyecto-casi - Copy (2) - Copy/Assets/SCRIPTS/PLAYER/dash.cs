@@ -20,6 +20,9 @@ public class dash : MonoBehaviour
         timer += Time.deltaTime;
         if (PecadosSingleton.instance.pecadoLujuria == true){
         handleDash();
+        while (isDashing){
+            GameManager.instance.playerGolpeado = false;
+        }
         }
     }
     private void handleDash()
