@@ -8,7 +8,7 @@ public class CAMALUJURIA : Interactable
   
     public override void interact()
     {
-        generarCorazonesAudio();
+        //generarCorazonesAudio();
         PecadosSingleton.instance.pecadoLujuria = true;
     }
 

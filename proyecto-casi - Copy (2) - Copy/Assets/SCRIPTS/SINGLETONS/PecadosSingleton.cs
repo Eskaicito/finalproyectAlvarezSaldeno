@@ -38,7 +38,7 @@ public class PecadosSingleton : MonoBehaviour
         
         if (pecadoIra == true){
             //cambiar color de lanzallamas
-            GameManager.instance.flamethrowerDamage = 300;
+            GameManager.instance.flamethrowerDamage = 50;
         }
 
        if (pecadoEnvidia == true){

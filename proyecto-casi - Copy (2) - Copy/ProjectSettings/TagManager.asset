@@ -15,6 +15,7 @@ TagManager:
   - Interact
   - GULA
   - bolaFuego
+  - luciferBala
   layers:
   - Default
   - TransparentFX

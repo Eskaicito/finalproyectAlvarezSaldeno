@@ -871,15 +871,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5961030860484908167, guid: 66018160813282f4282e5579bf6da263, type: 3}
       propertyPath: looping
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5961030860484908167, guid: 66018160813282f4282e5579bf6da263, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5961030860484908167, guid: 66018160813282f4282e5579bf6da263, type: 3}
       propertyPath: CollisionModule.collisionMessages
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961030860484908167, guid: 66018160813282f4282e5579bf6da263, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5961030860484908167, guid: 66018160813282f4282e5579bf6da263, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b

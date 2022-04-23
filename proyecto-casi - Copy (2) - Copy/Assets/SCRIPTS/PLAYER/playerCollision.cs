@@ -78,6 +78,9 @@ public class playerCollision : MonoBehaviour
             GameManager.instance.escenaActiva = 3;
             SceneManager.LoadScene("LABERINTO-ARENA");
         }
+        if (other.gameObject.CompareTag("luciferBala")){
+            GameManager.instance.playerLife -= 30;            
+        }
     }
     private void muerto()
     {
