@@ -21,10 +21,22 @@ public class lucifer : MonoBehaviour
 
     private void Update()
     {
+        if (luciferData.luciferLife <1){
+            activarFinJuego();
+            Destroy(gameObject);
+        }
         lookTo();
         distanciaPlayer();
         luciferAtaque();
     }
+
+    private void activarFinJuego()
+    {
+        //activar texto
+        //player quieto
+        //quit
+    }
+
     void distanciaPlayer()
     {
         Vector3 direction = (luciferData.player.transform.position - transform.position);

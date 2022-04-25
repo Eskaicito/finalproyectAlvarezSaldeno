@@ -1504,3 +1504,1916 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007111 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021594E17E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215985F6020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594BCC950 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021597F28030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215992E9E70 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592CF86C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021595DA3020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592CF86C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215992E9E70 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594E17E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596A4D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1062ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
+System memory in use after: 186.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 2.590100 ms (FindLiveObjects: 0.138000 ms CreateObjectMapping: 0.060100 ms MarkObjects: 2.369400 ms  DeleteObjects: 0.021300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3107.297030 seconds.
+  path: Assets/MODELS/NIVELES/LABERINTO-ARENA/bonfire/textures/asche.mat
+  artifactKey: Guid(0c4dd462df7b08348af87b615242d3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/NIVELES/LABERINTO-ARENA/bonfire/textures/asche.mat using Guid(0c4dd462df7b08348af87b615242d3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b85eca50af001ea459c16864386b2ee') in 0.764734 seconds 
+  Import took 0.768669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/MODELS/NIVELES/LABERINTO-ARENA/bonfire/textures/boden.mat
+  artifactKey: Guid(99ca707ad34e47b409aa0e5af8bf8d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/NIVELES/LABERINTO-ARENA/bonfire/textures/boden.mat using Guid(99ca707ad34e47b409aa0e5af8bf8d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfdc39c8c8a54f4d0d930bad612dab3') in 0.067153 seconds 
+  Import took 0.070658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/MODELS/NIVELES/LABERINTO-ARENA/Coins/Coins.OBJ
+  artifactKey: Guid(e476823e3b3d9624a92c33db9aaa7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/NIVELES/LABERINTO-ARENA/Coins/Coins.OBJ using Guid(e476823e3b3d9624a92c33db9aaa7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbecedd9418f8ed0f19f673e9cf7f3f2') in 0.312952 seconds 
+  Import took 0.315966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/MODELS/NIVELES/LABERINTO-ARENA/bed/model/model.dae
+  artifactKey: Guid(3e76bd5d06c1f764cb52592a79e8e4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/NIVELES/LABERINTO-ARENA/bed/model/model.dae using Guid(3e76bd5d06c1f764cb52592a79e8e4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b977aeae07056c4a103173717f34fe3') in 0.070100 seconds 
+  Import took 0.072769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.697127 seconds.
+  path: Assets/IMPORTED/STONEKEEP ASSET/Prefabs/Wall_b.prefab
+  artifactKey: Guid(b0ad42c496536b34ba2c5285bc5de2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/STONEKEEP ASSET/Prefabs/Wall_b.prefab using Guid(b0ad42c496536b34ba2c5285bc5de2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40921694d629508ba19579eaa8ee9239') in 0.030346 seconds 
+  Import took 0.034229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.214640 seconds.
+  path: Assets/Wall_b (4) Variant.prefab
+  artifactKey: Guid(a87c6b4dc43593640b3078f977d0b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wall_b (4) Variant.prefab using Guid(a87c6b4dc43593640b3078f977d0b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5bba5e26a5dccb08bbbfa76782f0e5') in 0.023823 seconds 
+  Import took 0.027561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.916755 seconds.
+  path: Assets/Wall_b (4) Variant.prefab
+  artifactKey: Guid(a87c6b4dc43593640b3078f977d0b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wall_b (4) Variant.prefab using Guid(a87c6b4dc43593640b3078f977d0b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0116da7849349ea049f5b1298062ec67') in 0.018868 seconds 
+  Import took 0.022120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.707164 seconds.
+  path: Assets/Wall_b (4) Variant.prefab
+  artifactKey: Guid(a87c6b4dc43593640b3078f977d0b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wall_b (4) Variant.prefab using Guid(a87c6b4dc43593640b3078f977d0b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c57b0d59eff039a77f7c495538c2f9b') in 0.022305 seconds 
+  Import took 0.026421 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007625 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215929150A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594BCC950 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215992E9E70 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215992E9E70 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DBF76210 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC084050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (859ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 189.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2383.
+Total: 3.144400 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.072300 ms MarkObjects: 2.875100 ms  DeleteObjects: 0.017200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007697 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021594E17E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215929150A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021595375E40 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599A30020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215992E9E70 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215992E9E70 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594E17E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594B3A700 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Domain Reload Profiling:
+	ReloadAssembly (967ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 189.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2385.
+Total: 2.715600 ms (FindLiveObjects: 0.156900 ms CreateObjectMapping: 0.061300 ms MarkObjects: 2.479000 ms  DeleteObjects: 0.017400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006838 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215929150A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021595375E40 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC641010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC661030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC556440 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC661030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC556440 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (933ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 189.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2387.
+Total: 2.408400 ms (FindLiveObjects: 0.132300 ms CreateObjectMapping: 0.053500 ms MarkObjects: 2.207400 ms  DeleteObjects: 0.014600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007061 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021598E300C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215929150A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594DEC040 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002159570D8D0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002159570D8D0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598E300C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596A4D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC556440 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (978ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (807ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 189.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2389.
+Total: 2.950000 ms (FindLiveObjects: 0.174900 ms CreateObjectMapping: 0.080400 ms MarkObjects: 2.677700 ms  DeleteObjects: 0.015800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007327 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002159875F090 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021597F28030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215981DA020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021547FBBA10 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002159570D8D0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC0A4060 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC556440 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (919ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (741ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 189.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2391.
+Total: 2.621900 ms (FindLiveObjects: 0.139900 ms CreateObjectMapping: 0.057400 ms MarkObjects: 2.408800 ms  DeleteObjects: 0.014900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2198.750429 seconds.
+  path: Assets/SCENES/LABERINTO-ARENA.unity
+  artifactKey: Guid(8d7fffd98aec24c4dad7007fd83cadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES/LABERINTO-ARENA.unity using Guid(8d7fffd98aec24c4dad7007fd83cadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5f7a13015b41953a175f0e922f6678') in 0.013368 seconds 
+  Import took 0.016532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.094018 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f174a3c3574d955c24c0f457e81f48de') in 0.056903 seconds 
+  Import took 0.060617 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007659 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002159875F090 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021597F28030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215981DA020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC1DC0D0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC556440 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Domain Reload Profiling:
+	ReloadAssembly (909ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.9 MB.
+System memory in use after: 190.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 2.520400 ms (FindLiveObjects: 0.132800 ms CreateObjectMapping: 0.054300 ms MarkObjects: 2.314600 ms  DeleteObjects: 0.018100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.495379 seconds.
+  path: Assets/PREFABS/PLAYER/---JUGADOR---.prefab
+  artifactKey: Guid(5806256ce72f4cd498eddf44f785416f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PLAYER/---JUGADOR---.prefab using Guid(5806256ce72f4cd498eddf44f785416f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a751498228b50ba03d261fdaad3b1f20') in 0.166764 seconds 
+  Import took 0.172731 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008417 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021594E17E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002159875F090 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021597F28030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DBD80040 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598249030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594E17E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC81F010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (941ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.7 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2401.
+Total: 2.582900 ms (FindLiveObjects: 0.150900 ms CreateObjectMapping: 0.061000 ms MarkObjects: 2.355600 ms  DeleteObjects: 0.014800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007070 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000215DBF8C700 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002159875F090 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021597F28030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598DBEF80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC556440 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC82F030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598DBEF80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DBF8C700 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC556440 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (801ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.7 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2403.
+Total: 2.565700 ms (FindLiveObjects: 0.136700 ms CreateObjectMapping: 0.052800 ms MarkObjects: 2.360700 ms  DeleteObjects: 0.014600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008268 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215929150A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC5D7CB0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598DBEF80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC84F070 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598DBEF80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B1D040 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC556440 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (858ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.8 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2405.
+Total: 3.001700 ms (FindLiveObjects: 0.171700 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.735700 ms  DeleteObjects: 0.021400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006746 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002159875F090 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B2D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC0D9AC0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC556440 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC0D9AC0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215954FB020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DBF76210 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC556440 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Domain Reload Profiling:
+	ReloadAssembly (926ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (740ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.8 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2407.
+Total: 2.584000 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.071600 ms MarkObjects: 2.331100 ms  DeleteObjects: 0.015800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007496 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021596A35030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002159875F090 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B2D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC7D7080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598249030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC556440 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598249030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC7D7080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596A35030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.8 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2409.
+Total: 3.310300 ms (FindLiveObjects: 0.153500 ms CreateObjectMapping: 0.060000 ms MarkObjects: 3.079300 ms  DeleteObjects: 0.016400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1829.538204 seconds.
+  path: Assets/SCENES/LABERINTO-ARENA.unity
+  artifactKey: Guid(8d7fffd98aec24c4dad7007fd83cadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES/LABERINTO-ARENA.unity using Guid(8d7fffd98aec24c4dad7007fd83cadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a9d2ae5b1554814393a1a41da4b8e4') in 0.015415 seconds 
+  Import took 0.018975 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006632 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021596A35030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215929150A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC3FE020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC7D7080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC1DC0D0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC1DC0D0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC7D7080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596A35030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.8 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2411.
+Total: 2.570200 ms (FindLiveObjects: 0.143100 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.353700 ms  DeleteObjects: 0.014700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 862.377059 seconds.
+  path: Assets/SCENES/LABERINTO-ARENA.unity
+  artifactKey: Guid(8d7fffd98aec24c4dad7007fd83cadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES/LABERINTO-ARENA.unity using Guid(8d7fffd98aec24c4dad7007fd83cadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98abd21ab86e7861efb0cbac72c565c8') in 0.015959 seconds 
+  Import took 0.019647 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007926 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021596A35030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215929150A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC61FD00 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594DEC040 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC7D7080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598DBEF80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC61FD00 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598DBEF80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC7D7080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596A35030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC198090 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC86F0B0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1065ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.8 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2413.
+Total: 3.257200 ms (FindLiveObjects: 0.168600 ms CreateObjectMapping: 0.070900 ms MarkObjects: 2.991000 ms  DeleteObjects: 0.025500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007004 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215929150A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC5D7CB0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC1DC0D0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598078420 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC1DC0D0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC9C9750 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (984ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (807ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.8 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2415.
+Total: 2.861500 ms (FindLiveObjects: 0.151200 ms CreateObjectMapping: 0.060100 ms MarkObjects: 2.631400 ms  DeleteObjects: 0.017800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007533 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021594E17E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215929150A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B2D060 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598DBEF80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594B3A700 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598DBEF80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594E17E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC6F3060 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1055ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (864ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.8 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2417.
+Total: 3.588700 ms (FindLiveObjects: 0.165400 ms CreateObjectMapping: 0.074600 ms MarkObjects: 3.329500 ms  DeleteObjects: 0.018400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1651.173426 seconds.
+  path: Assets/PREFABS/NIVELES/LABERINTO-ARENA/ESTATUASATAN.prefab
+  artifactKey: Guid(8d14064ba2f35be488390790b4d0b85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/NIVELES/LABERINTO-ARENA/ESTATUASATAN.prefab using Guid(8d14064ba2f35be488390790b4d0b85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f976d38265a1c2d99cb941e879eb39') in 0.224427 seconds 
+  Import took 0.233127 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006817 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215929150A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B2D060 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021597EFA050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594B3A700 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215E3694010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021597EFA050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC00BE60 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596A4D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594B3A700 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.942 seconds
+Domain Reload Profiling:
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (764ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.8 MB.
+System memory in use after: 204.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2420.
+Total: 2.611400 ms (FindLiveObjects: 0.184200 ms CreateObjectMapping: 0.056900 ms MarkObjects: 2.354700 ms  DeleteObjects: 0.014900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 449.511377 seconds.
+  path: Assets/SCENES/JARDIN.unity
+  artifactKey: Guid(7cd0c015d01b5c041ba27d24f52a654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES/JARDIN.unity using Guid(7cd0c015d01b5c041ba27d24f52a654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1343844ea0aec8be97b4d6532a75075d') in 0.016768 seconds 
+  Import took 0.020509 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009150 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021594E17E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC1A41E0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598773BA0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598DBEF80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215E377D370 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596ADAE20 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215E3694010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598DBEF80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594E17E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599A30020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC158070 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1120ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (912ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.8 MB.
+System memory in use after: 204.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2422.
+Total: 2.966200 ms (FindLiveObjects: 0.173100 ms CreateObjectMapping: 0.072000 ms MarkObjects: 2.701600 ms  DeleteObjects: 0.018500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 505.388660 seconds.
+  path: Assets/SCENES/LABERINTO-ARENA.unity
+  artifactKey: Guid(8d7fffd98aec24c4dad7007fd83cadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES/LABERINTO-ARENA.unity using Guid(8d7fffd98aec24c4dad7007fd83cadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccf0b36f208ade74c77203c7249ab22') in 0.015512 seconds 
+  Import took 0.019416 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006910 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021596A35030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC1A41E0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021595375E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594DEC040 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596ADAE20 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215E377D370 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021595375E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596ADAE20 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596A35030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC158070 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215E377D370 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Domain Reload Profiling:
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.9 MB.
+System memory in use after: 204.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2424.
+Total: 2.647900 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.375200 ms  DeleteObjects: 0.014500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 156.014694 seconds.
+  path: Assets/SCENES/LABERINTO-ARENA.unity
+  artifactKey: Guid(8d7fffd98aec24c4dad7007fd83cadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES/LABERINTO-ARENA.unity using Guid(8d7fffd98aec24c4dad7007fd83cadf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cf6855507045469062e19dd19801e5') in 0.018909 seconds 
+  Import took 0.022560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 907.875764 seconds.
+  path: Assets/PREFABS/UI-HUD/UI.prefab
+  artifactKey: Guid(d20400e77ac9b9f498a6b5d14480f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/UI-HUD/UI.prefab using Guid(d20400e77ac9b9f498a6b5d14480f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae18bd1d029153ab1dc2d36e296d0380') in 0.052785 seconds 
+  Import took 0.056559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.649458 seconds.
+  path: Assets/PREFABS/UI-HUD/UI.prefab
+  artifactKey: Guid(d20400e77ac9b9f498a6b5d14480f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/UI-HUD/UI.prefab using Guid(d20400e77ac9b9f498a6b5d14480f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd0504323163d800b759a61dab0ca52') in 0.008455 seconds 
+  Import took 0.013886 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006993 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021598B92020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215E39DD010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021592C90010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021594DEC040 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215E3751010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215E377D370 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC20C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599D8F0C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215E3751010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021599BB1080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215DC73F1C0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021598B92020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021596B8D050 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000215E377D370 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Domain Reload Profiling:
+	ReloadAssembly (895ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.9 MB.
+System memory in use after: 204.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2426.
+Total: 2.669100 ms (FindLiveObjects: 0.144500 ms CreateObjectMapping: 0.061900 ms MarkObjects: 2.446800 ms  DeleteObjects: 0.015200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

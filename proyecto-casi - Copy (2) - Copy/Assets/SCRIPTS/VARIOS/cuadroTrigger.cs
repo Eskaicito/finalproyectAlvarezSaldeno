@@ -9,22 +9,30 @@ public class cuadroTrigger : MonoBehaviour
     [SerializeField] GameObject bloqueoSalida;
     [SerializeField] GameObject shutpointh;
     [SerializeField] float distanceRay = 4f;
-    private void OnTriggerEnter(Collider other) {
+    private void OnTriggerEnter(Collider other)
+    {
         //luciferVida = GameObject.Find("GAMEMANAGER").transform.Find("HUD").transform.Find("Canvas").transform.Find("life_fondo");
         luciferVida = GameObject.Find("GAMEMANAGER").transform.Find("HUD").transform.Find("Canvas").transform.Find("luciferVida").gameObject;
-        if (other.transform.CompareTag("Player")){
+        if (other.transform.CompareTag("Player"))
+        {
             luciferVida.gameObject.SetActive(true);
             bloqueoSalida.SetActive(true);
+            other.transform.localScale += new Vector3(3,3,3);
         }
     }
 
-      private void emitirRaycast()
+    private void emitirRaycast()
     {
         RaycastHit hit;
         if (Physics.Raycast(shutpointh.transform.position, shutpointh.transform.TransformDirection(Vector3.forward), out hit, distanceRay))
         {
-            luciferVida.gameObject.SetActive(true);
-            bloqueoSalida.SetActive(true);
+            if (hit.transform.tag == "Player")
+            {
+                PecadosSingleton.instance.pecadoSoberbia = true;
+                hit.transform.localScale += new Vector3(3,3,3);
+                luciferVida.gameObject.SetActive(true);
+                bloqueoSalida.SetActive(true);
+            }
         }
     }
 
@@ -35,4 +43,3 @@ public class cuadroTrigger : MonoBehaviour
         Gizmos.DrawRay(shutpointh.transform.position, puntob);
     }
 }
- 

@@ -17,6 +17,7 @@ public class FOGATAENVIDIA : MonoBehaviour
     private void Start()
     {
         fuego = transform.Find("FUEGO").gameObject.GetComponent<ParticleSystem>();
+        fuego.Stop();
     }
     private void Update()
     {
