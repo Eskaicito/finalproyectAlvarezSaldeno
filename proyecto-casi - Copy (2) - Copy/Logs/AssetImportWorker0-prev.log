@@ -1,0 +1,835 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16300 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/´Marxssy/CODER/pruebagithub/proyecto-casi - Copy (2) - Copy
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58536
+Successfully changed project path to: C:/´Marxssy/CODER/pruebagithub/proyecto-casi - Copy (2) - Copy
+C:/´Marxssy/CODER/pruebagithub/proyecto-casi - Copy (2) - Copy
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/´Marxssy/CODER/pruebagithub/proyecto-casi - Copy (2) - Copy/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     4075 MB
+    Driver:   30.0.13023.4001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002838 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.603 seconds
+Domain Reload Profiling:
+	ReloadAssembly (603ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007623 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BC8E4FA0A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC908E5910 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E4FA0A0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E5E4020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E5E4020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E509020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC909C0220 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC90D96010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E5E4020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC90D96010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E5E4020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E5E4020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E509020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E509020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E46AE80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E46AE80 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.1 MB.
+System memory in use after: 191.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 2.841600 ms (FindLiveObjects: 0.143700 ms CreateObjectMapping: 0.063400 ms MarkObjects: 2.548700 ms  DeleteObjects: 0.085200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/SCENES/LABERINTO-ARENA_Profiles/PP Profile 2.asset
+  artifactKey: Guid(a4e4b2548aa8d334b9bdac065a6d3d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES/LABERINTO-ARENA_Profiles/PP Profile 2.asset using Guid(a4e4b2548aa8d334b9bdac065a6d3d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b44b3225e8152955701cd6b4987c9b') in 0.058951 seconds 
+  Import took 0.061739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/SCENES/LABERINTO-ARENA_Profiles/RED PP Profile.asset
+  artifactKey: Guid(b350d7d787ebfa947962318e77a88b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES/LABERINTO-ARENA_Profiles/RED PP Profile.asset using Guid(b350d7d787ebfa947962318e77a88b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2c9e073e5b19534589e4c03e91875f') in 0.013064 seconds 
+  Import took 0.023025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 302.638067 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726a692df994ee6976f3f6c3fed6c358') in 0.080568 seconds 
+  Import took 0.083754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.799650 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9791a3eb9e338515e691e97a6beb4d1') in 0.011086 seconds 
+  Import took 0.013894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.000296 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4ef2a0d48ef1fae20ee1449188e686') in 0.008825 seconds 
+  Import took 0.011701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.812900 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabb12540be8b97e5ef46e5581c1fe58') in 0.010171 seconds 
+  Import took 0.033012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.208900 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd855cd94fa874a2668f9884f9b0297') in 0.008946 seconds 
+  Import took 0.011737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.825964 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c28a31ca3d2766d32d2e7ef806bae05') in 0.008404 seconds 
+  Import took 0.011220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.606557 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05741119b060216a069d106f7200a324') in 0.008253 seconds 
+  Import took 0.011356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.042712 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a3252404f0162fb17b4fb09ee7a7d7') in 0.008837 seconds 
+  Import took 0.011764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.709986 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47abe35e0306c0df858e2e18c923c256') in 0.008094 seconds 
+  Import took 0.011140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.814489 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34158731fcbd77c516a8e3fadc5b5915') in 0.008195 seconds 
+  Import took 0.011293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.399059 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3b508fa4474d6fec7c21ea7be40737') in 0.008108 seconds 
+  Import took 0.011024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.239941 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7960437e30123dd616d908fab1e88d') in 0.007837 seconds 
+  Import took 0.010773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.428940 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711e77199072f0704efefc97dffda908') in 0.009948 seconds 
+  Import took 0.013423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.153581 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27787a1721783da6787ddf4e56fd32d') in 0.008804 seconds 
+  Import took 0.025262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.580619 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6337c398217de761bac6482a93c907d6') in 0.008108 seconds 
+  Import took 0.011130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.212176 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276fcfdf6bfa1c6f13bdd89073e156ce') in 0.009904 seconds 
+  Import took 0.013117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.029508 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8653dc3ec7e1a76a8aec14c12e301f0') in 0.007556 seconds 
+  Import took 0.010333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.257286 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d52f38efc9b9d8710bc35b3ff1e39ec') in 0.010879 seconds 
+  Import took 0.014321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.259893 seconds.
+  path: Assets/MATERIALS/espejo.mat
+  artifactKey: Guid(5e2840bd5144f3143a4c710c6c2d8624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MATERIALS/espejo.mat using Guid(5e2840bd5144f3143a4c710c6c2d8624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ef3e258931366087dd3a628a013390') in 0.058699 seconds 
+  Import took 0.061510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 576.783359 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4c720bc9024ce1072ff89e6ea24607') in 0.009412 seconds 
+  Import took 0.012928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1542.116860 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395cd5dac2d85a85fca64aad6e3546f0') in 0.010564 seconds 
+  Import took 0.014129 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007782 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BC91CB8020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91879020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91E70020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91F07400 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC94E04010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E617950 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC902D7E50 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC90B71020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91F07400 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC90ADB010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91F07400 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E0AB5B0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC9181DC20 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91CB8020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91D16020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E385450 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Domain Reload Profiling:
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (727ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.5 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2344.
+Total: 2.435800 ms (FindLiveObjects: 0.132400 ms CreateObjectMapping: 0.054500 ms MarkObjects: 2.230200 ms  DeleteObjects: 0.018100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 547.586978 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5029b4de0f47b889835227e2fcd927') in 0.050911 seconds 
+  Import took 0.053711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.424132 seconds.
+  path: Assets/PREFABS/PUERTADIABLO.prefab
+  artifactKey: Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/PUERTADIABLO.prefab using Guid(839e01f4829dbf04f90c785f3e2b7c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5949177b799cd823302027d82548752d') in 0.012006 seconds 
+  Import took 0.015152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.490590 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307bbe22e51bc9a59e188738015be08c') in 0.011123 seconds 
+  Import took 0.014647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.353422 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740b821c17474399780be4e5fb6e9cd9') in 0.005020 seconds 
+  Import took 0.008131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.923489 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31000fb0bf64ea2cf5b5dbaa4b14134') in 0.005312 seconds 
+  Import took 0.017911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.261797 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513518a48662a4aade1725933592861d') in 0.012930 seconds 
+  Import took 0.016120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.663772 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38e70a443e4c698e02654eb40fd32b4') in 0.007915 seconds 
+  Import took 0.010831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.205455 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbca52778ff08704e76d98cba276717') in 0.008423 seconds 
+  Import took 0.011309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.086102 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1343c15366d72fc9af2d3757e1eba4d7') in 0.007892 seconds 
+  Import took 0.010988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.548170 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f50292fee874a96d9bc332e20e99e4e') in 0.008863 seconds 
+  Import took 0.011791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.901252 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6f5579058e7c84fce8a3a81162b510') in 0.015566 seconds 
+  Import took 0.018435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.495169 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030db4f89c1441794c75295c447d7cbc') in 0.007341 seconds 
+  Import took 0.010338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.617823 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7adf8be2741323e65eac1bfcf720104d') in 0.008492 seconds 
+  Import took 0.011439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.661222 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17dbf9413086a905d3f15ff55480a2ef') in 0.007616 seconds 
+  Import took 0.010747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.424935 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6e6c8b03904272761f7337620ecda1') in 0.008983 seconds 
+  Import took 0.012348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.421629 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad512e3b3d635f8b2a83174ff49b0d5a') in 0.008182 seconds 
+  Import took 0.011440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.466094 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81142bb30a1e4015ee3f14679ad289fb') in 0.008982 seconds 
+  Import took 0.012301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.617324 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116936e8aea50acc7815523da1b989bd') in 0.007981 seconds 
+  Import took 0.011076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.305947 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b03ab7e31123852c76a72fe49d10697') in 0.010431 seconds 
+  Import took 0.013766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.027200 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fc41148924f15fa19be92bc736d6ff') in 0.008034 seconds 
+  Import took 0.010992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 503.530967 seconds.
+  path: Assets/MATERIALS/espejo.mat
+  artifactKey: Guid(5e2840bd5144f3143a4c710c6c2d8624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MATERIALS/espejo.mat using Guid(5e2840bd5144f3143a4c710c6c2d8624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69069586797e38033a7bc03b61a0b230') in 0.037955 seconds 
+  Import took 0.041325 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006776 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BC6CC28100 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91879020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91E70020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91F07400 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC92273030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E617950 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC915E0010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC93F42020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC907E0010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC90E3E010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC915E0010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E0AB5B0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E617950 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC6CC28100 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91D16020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC90A1F020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (754ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 189.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 2.525300 ms (FindLiveObjects: 0.138800 ms CreateObjectMapping: 0.056000 ms MarkObjects: 2.261700 ms  DeleteObjects: 0.068200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.518920 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479f1eaaf2ba9fe0f4c6b068d9c07d6d') in 0.049062 seconds 
+  Import took 0.052044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.054575 seconds.
+  path: Assets/Espejo
+  artifactKey: Guid(81a12b8b25c290a4592a5517b2724f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Espejo using Guid(81a12b8b25c290a4592a5517b2724f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4418a1b83ab15fa3115705f514036d9e') in 0.002611 seconds 
+  Import took 0.005653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069060 seconds.
+  path: Assets/Espejo/Mirror.mat
+  artifactKey: Guid(f4a125c3aff45134cba105f8fd0b216a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Espejo/Mirror.mat using Guid(f4a125c3aff45134cba105f8fd0b216a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc141be134f7a808c678f2c6daaa640') in 0.020457 seconds 
+  Import took 0.023892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.273162 seconds.
+  path: Assets/Espejo/MirrorReflectionScript.cs
+  artifactKey: Guid(169f3fbcd12dd2f43b61f490299b59d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Espejo/MirrorReflectionScript.cs using Guid(169f3fbcd12dd2f43b61f490299b59d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1d83d0957d5b8309653af03f21758f') in 0.020347 seconds 
+  Import took 0.023726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.135596 seconds.
+  path: Assets/Espejo/MirrorReflection.shader
+  artifactKey: Guid(34ef66c9bfb46e046bf3b36b5a6aa3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Espejo/MirrorReflection.shader using Guid(34ef66c9bfb46e046bf3b36b5a6aa3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d38778e4879649c4315c97c9b05f4b') in 0.004856 seconds 
+  Import took 0.007689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.066488 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a692c16649c7a6361969c6b3c84d3b5b') in 0.013420 seconds 
+  Import took 0.016222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.553729 seconds.
+  path: Assets/PREFABS/puertaLucifer.prefab
+  artifactKey: Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFABS/puertaLucifer.prefab using Guid(5770ece65cf08c24cbfca448c40efc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce0c7a1aa8f0bc506183fc481f0858e') in 0.010128 seconds 
+  Import took 0.013022 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009109 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BC6CC28100 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91879020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC91E70020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC9194B010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC953E8020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E617950 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E36C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC94938250 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC907E0010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC90E3E010 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E36C030 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E0AB5B0 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC8E617950 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC6CC28100 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC90140080 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC93F42020 doesn't match image C:\´Marxssy\CODER\pruebagithub\proyecto-casi - Copy (2) - Copy\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Domain Reload Profiling:
+	ReloadAssembly (917ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (746ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.9 MB.
+System memory in use after: 190.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 2.671100 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.070000 ms MarkObjects: 2.419300 ms  DeleteObjects: 0.021300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
