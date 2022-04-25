@@ -749,7 +749,8 @@ PrefabInstance:
       propertyPath: InitialModule.startColor.maxColor.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 215245169082350973, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
 --- !u!1 &627296260
 GameObject:
@@ -1125,6 +1126,8 @@ MonoBehaviour:
   player: {fileID: 1669507536516026039, guid: 5806256ce72f4cd498eddf44f785416f, type: 3}
   checkpoint: {fileID: 0}
   coins: 0
+  startAgain: 1
+  escenaActiva: 1
 --- !u!4 &1247670770
 Transform:
   m_ObjectHideFlags: 0

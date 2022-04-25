@@ -14,11 +14,10 @@ public class PecadosSingleton : MonoBehaviour
     public bool pecadoPereza = false;
     public bool playerPecador = false;
     [SerializeField] GameObject luzAvaricia;
-    dash Dash;
+    
 
     private void Awake()
     {
-        Dash = GetComponent<dash>();
         if (instance == null)
         {
             instance = this;

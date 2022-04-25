@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ec8e024261fc214299831f7d2f30af0, type: 3}
   m_Name: luciferData
   m_EditorClassIdentifier: 
-  luciferLife: -91000
-  luciferMaxLife: 20000
-  distanciaPlayer: 51.791534
+  luciferLife: -2700
+  luciferMaxLife: 2000
+  distanciaPlayer: 49.685623
   bolaFuego1: {fileID: 0}
   bolaFuego2: {fileID: 0}
   player: {fileID: 0}

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class playerCharacter : MonoBehaviour
 {
+    public bool isDashing;
+    private float dashStartTime;
+    private float timer = 0f;
     [SerializeField] float speed = 8f;
     public Vector3 directionPlayer = Vector3.zero;
     private Vector3 directionPlayerPrivate = Vector3.zero;
@@ -54,6 +57,11 @@ public class playerCharacter : MonoBehaviour
     }
     void Update()
     {
+        if (PecadosSingleton.instance.pecadoLujuria == true){
+            timer += Time.deltaTime;
+            handleDash();
+        }
+
         if (PecadosSingleton.instance.pecadoIra){
            fuego.gameObject.SetActive(false);
            fuegoIra.gameObject.SetActive(true);
@@ -218,4 +226,54 @@ public class playerCharacter : MonoBehaviour
         player.transform.position = checkpoint.GetComponent<checkpoinManager>().actualCP;
         GameManager.instance.startAgain = false;
     }
+    
+    private void handleDash()
+    {
+        Debug.Log("1");
+        bool isTryingToDash = Input.GetKeyDown(KeyCode.Q);
+        if (isTryingToDash && !isDashing && timer >4f)
+        {
+            Debug.Log("2");
+            OnStartDash();
+        }
+
+        if (isDashing)
+        {
+            Debug.Log("3");
+            if (Time.time - dashStartTime <= 0.4f)
+            {
+                Debug.Log("4");
+                if (directionPlayer.Equals(Vector3.zero))
+                {
+                    Debug.Log("5");
+                    ccPlayer.Move(transform.forward * 30f * Time.deltaTime);
+                    Debug.Log("6");
+                }
+                else
+                {
+                    Debug.Log("7");
+                    ccPlayer.Move((transform.TransformDirection(directionPlayer)) * 30f * Time.deltaTime);
+                }
+            } else{
+                OnEndDash();
+            }
+        }
+    }
+
+    void OnStartDash()
+    {
+        Debug.Log("start");
+        isDashing = true;
+        dashStartTime = Time.time;
+    }
+
+    void OnEndDash()
+    {
+        Debug.Log("end");
+        timer = 0f;
+        isDashing = false;
+        dashStartTime = 0;
+    }
+
+    
 }

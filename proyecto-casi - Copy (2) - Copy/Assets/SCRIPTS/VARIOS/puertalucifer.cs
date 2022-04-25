@@ -4,20 +4,32 @@ using UnityEngine;
 
 public class puertalucifer : MonoBehaviour
 {
-    [SerializeField] bool pecadoScript;
-    private float timer;
-   
-    private void Start() {
-        pecadoScript = FindObjectOfType<PecadosSingleton>().playerPecador;
-        timer = 0;
-    }
-    void Update()
+
+    private bool yaSubio = false;
+
+    private void Start()
     {
-        if (pecadoScript == true){
-            while (timer < 6){
-                timer += Time.deltaTime;
-                transform.position += new Vector3(0, 5,0) * Time.deltaTime;
+        yaSubio = false;
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.transform.CompareTag("Player"))
+        {
+            if (PecadosSingleton.instance.playerPecador && yaSubio == false)
+            {
+                StartCoroutine(subir());
+                yaSubio = true;
             }
         }
+    }
+    IEnumerator subir(){
+        transform.position += new Vector3(0, 0.8f, 0);
+        yield return new WaitForSeconds(0.3f);
+        transform.position += new Vector3(0, 0.8f, 0);
+        yield return new WaitForSeconds(0.3f);
+        transform.position += new Vector3(0, 0.8f, 0);
+        yield return new WaitForSeconds(0.3f);
+        transform.position += new Vector3(0, 0.8f, 0);
+        yield return new WaitForSeconds(0.3f);
     }
 }

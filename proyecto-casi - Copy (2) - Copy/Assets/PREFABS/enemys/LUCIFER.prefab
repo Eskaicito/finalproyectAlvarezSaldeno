@@ -2390,6 +2390,7 @@ GameObject:
   - component: {fileID: 8925836437608290137}
   - component: {fileID: 8925836437608290138}
   - component: {fileID: 823837428712640966}
+  - component: {fileID: 7771590823468617658}
   m_Layer: 0
   m_Name: LUCIFER
   m_TagString: Untagged
@@ -2449,6 +2450,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   luciferData: {fileID: 11400000, guid: c4072a536d9e5ff41ac0d71d3ab86514, type: 2}
+--- !u!65 &7771590823468617658
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8925836437608290139}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8562238, y: 8.5695, z: 1.4729648}
+  m_Center: {x: 0.10003306, y: 3.7847514, z: -0.017705854}
 --- !u!1 &8986580396640918070
 GameObject:
   m_ObjectHideFlags: 0
