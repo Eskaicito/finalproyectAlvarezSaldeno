@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83486639467304141839231d9d2247e8, type: 3}
   m_Name: monster 2
   m_EditorClassIdentifier: 
-  enemyLife: 1000
+  enemyLife: 0
   maxEnemyLife: 1000
   actualEnemyLife: 0
   persecucion: 0
-  playerDetectado: 0
-  timerOnOff: 0
+  playerDetectado: 1
+  timerOnOff: 1

@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int playerCoins;
+    public int IRADEATH;
     public float playerLife, maxPlayerLife, flamethrowerDamage;
     public bool playerGolpeado = false;
     
@@ -31,6 +32,7 @@ public class GameManager : MonoBehaviour
             playerLife = 100;
             maxPlayerLife = 100;
             playerCoins = 0;
+            IRADEATH = 0;
             flamethrowerDamage = 5f;
             
         }

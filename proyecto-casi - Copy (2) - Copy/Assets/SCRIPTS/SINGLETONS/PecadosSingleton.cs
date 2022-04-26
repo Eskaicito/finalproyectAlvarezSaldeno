@@ -48,5 +48,8 @@ public class PecadosSingleton : MonoBehaviour
         if (pecadoGula && pecadoAvaricia && pecadoLujuria && pecadoIra && pecadoPereza && pecadoEnvidia){
             playerPecador = true;
         }
+        if (GameManager.instance.IRADEATH >= 5){
+            pecadoIra = true;
+        }
     }
 }
