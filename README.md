@@ -9,8 +9,9 @@ Inspirado en la novela de Dante Alighieri, La Divina Comedia, el juego gira en t
 
 ![screenshot_garden_2](https://user-images.githubusercontent.com/94655835/168485925-e1bbdc41-e8a8-4ccd-8809-e0bcac3472a3.png)
 
+![screenshot_garden (2)](https://user-images.githubusercontent.com/94655835/168486095-095e0fb4-0373-4455-be8d-d7ab7dadb433.png)
 
-![screenshot_garden](https://user-images.githubusercontent.com/94655835/168485939-2114f20e-0208-4e95-b215-fbc3d2a568d6.png)
+
 
 
 Estos se cumplen al interactuar con una silla, la cual te otorgara doble salto (pereza). Interactuando con una mesa, te aumentara la vida y la barra de vida (GULA). Prendiendo fuego una fogata, te dara una luz con la cual explorar los confines infernales (ENVIDIA). Una cama que al interactuar podras usar la Q para hacer un dash cada 4s (LUJURIA). Con un cofre, la cual te dara 40 dracmas (AVARICIA). 
