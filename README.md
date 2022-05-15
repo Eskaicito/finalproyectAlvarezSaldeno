@@ -3,8 +3,8 @@
 
 
 
-# “All hope abandon, ye who enter here.”
-# ― Dante Alighieri, The Divine Comedy 
+## “All hope abandon, ye who enter here.”
+## ― Dante Alighieri, The Divine Comedy 
 
 ### Inspirado en la novela de Dante Alighieri, La Divina Comedia, el juego gira en torno a un peregrino cuya búsqueda lo lleva a transitar los caminos del Infierno. Aquí, deberá completar varias pruebas, 7 en total, las cueales representan a los 7 pecados capitales: GULA, AVARICIA, IRA, SOBERBIA, PEREZA, LUJURIA y ENVIDIA. 
 
