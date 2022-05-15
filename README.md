@@ -1,6 +1,9 @@
 ![evandros_journey](https://user-images.githubusercontent.com/94655835/168483489-88dc542f-502e-4c22-83c2-b95c6a272543.png)
 
 
+
+
+
 Inspirado en la novela de Dante Alighieri, La Divina Comedia, el juego gira en torno a un peregrino cuya búsqueda lo lleva a transitar los caminos del Infierno. Aquí, deberá completar varias pruebas, 7 en total, las cueales representan a los 7 pecados capitales: GULA, AVARICIA, IRA, SOBERBIA, PEREZA, LUJURIA y ENVIDIA. 
 
 
@@ -22,4 +25,4 @@ Matando 5 gigantes se desbloquea un lanzallamas con mayor damage y una bola de f
 ![screenshot_sewers](https://user-images.githubusercontent.com/94655835/168485964-c7af411c-77a6-4acf-ac2a-1cb2834eecc8.png)
 
 
-Agradecemeos a los tutores, al profesor y a Coderhouse.
+# ¡Agradecemeos a los tutores, al profesor y a Coderhouse!
