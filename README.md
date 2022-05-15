@@ -16,6 +16,9 @@ Inspirado en la novela de Dante Alighieri, La Divina Comedia, el juego gira en t
 
 Estos se cumplen al interactuar con una silla, la cual te otorgara doble salto (pereza). Interactuando con una mesa, te aumentara la vida y la barra de vida (GULA). Prendiendo fuego una fogata, te dara una luz con la cual explorar los confines infernales (ENVIDIA). Una cama que al interactuar podras usar la Q para hacer un dash cada 4s (LUJURIA). Con un cofre, la cual te dara 40 dracmas (AVARICIA). 
 
+
+
+
 ![screenshot_laberynth_2 (2)](https://user-images.githubusercontent.com/94655835/168485974-b78b95d7-1850-4988-bc85-5554311b6e99.png)
 
 
