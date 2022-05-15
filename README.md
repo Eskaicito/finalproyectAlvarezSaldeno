@@ -7,7 +7,3 @@ Archivos que valen destacar: enemigosPadre, por todo el sistema de herencia gene
 
 
 Agradecemeos a los tutores, al profesor y a Coderhouse.
-
-
-# Link a drive con el .EXE
- https://drive.google.com/drive/folders/1zaWZgQPFCrJqSUkFMwHiufsIolm7szf_?usp=sharing
