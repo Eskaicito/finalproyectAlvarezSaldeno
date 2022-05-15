@@ -11,10 +11,6 @@
 
 🇬🇧: **Inspired by Dante Alighieri's novel, The Divine Comedy, the game revolves around a pilgrim whose quest leads him to travel the paths of Hell. Here, you will need to complete several tests, 7 in total, which represent the 7 deadly sins: GLUTTONY, GREED, ANGER, ARROGANCE, LAZINESS, LUST and ENVY.**
 
-<br />
-
-
-![screenshot_garden_2](https://user-images.githubusercontent.com/94655835/168485925-e1bbdc41-e8a8-4ccd-8809-e0bcac3472a3.png)
 
 <br />
 
@@ -40,9 +36,6 @@
 
 ![screenshot_laberynth](https://user-images.githubusercontent.com/94655835/168485959-8cd08f2f-cf48-4fc6-9e71-81923b0f2b09.png)
 
-<br />
-
-![screenshot_sewers](https://user-images.githubusercontent.com/94655835/168485964-c7af411c-77a6-4acf-ac2a-1cb2834eecc8.png)
 
 <br />
 
@@ -53,13 +46,28 @@
 ### _Barra espaciadora/Spacebar_ 👉 SALTO/JUMP
 ### _Tecla G/G key_ 👉 INTERACTUAR CON OBJETOS/INTERACT WITH OBJECTS
 
+<br />
+
+![screenshot_sewers](https://user-images.githubusercontent.com/94655835/168485964-c7af411c-77a6-4acf-ac2a-1cb2834eecc8.png)
+
 # 🤓 Equipo/Team
 
 ### Maximo Alvarez ([Instagram](https://www.instagram.com/maxialvarez1_/)) 👉 Game design, co-writer, programming and testing
 ### Nicolas Saldeño ([Instagram](https://www.instagram.com/nico_sm26/), [Twitter](https://twitter.com/eskaicito)) 👉 Game design, co-writer, audio, animations, lead artist and mapping
 
+<br />
+
+![screenshot_garden_2](https://user-images.githubusercontent.com/94655835/168485925-e1bbdc41-e8a8-4ccd-8809-e0bcac3472a3.png)
+
+<br />
 
 
+# 👨‍💻 Made with
+
+### Unity 3D
+
+<br />
+<br />
 
 
 
