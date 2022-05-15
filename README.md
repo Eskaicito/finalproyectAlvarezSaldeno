@@ -4,7 +4,7 @@
 
 
 
-Inspirado en la novela de Dante Alighieri, La Divina Comedia, el juego gira en torno a un peregrino cuya búsqueda lo lleva a transitar los caminos del Infierno. Aquí, deberá completar varias pruebas, 7 en total, las cueales representan a los 7 pecados capitales: GULA, AVARICIA, IRA, SOBERBIA, PEREZA, LUJURIA y ENVIDIA. 
+### Inspirado en la novela de Dante Alighieri, La Divina Comedia, el juego gira en torno a un peregrino cuya búsqueda lo lleva a transitar los caminos del Infierno. Aquí, deberá completar varias pruebas, 7 en total, las cueales representan a los 7 pecados capitales: GULA, AVARICIA, IRA, SOBERBIA, PEREZA, LUJURIA y ENVIDIA. 
 
 
 ![screenshot_garden_2](https://user-images.githubusercontent.com/94655835/168485925-e1bbdc41-e8a8-4ccd-8809-e0bcac3472a3.png)
